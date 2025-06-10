@@ -9,22 +9,20 @@ from typing import List
 
 load_dotenv()
 
-# === Spotify Authentication ===
+# auth in .env
 client_id = os.getenv("SPOTIPY_CLIENT_ID")
 client_secret = os.getenv("SPOTIPY_CLIENT_SECRET")
 
-# # Check if .env is loading correctly
-# print(f"SPOTIPY_CLIENT_ID: {client_id}")
-# print(f"SPOTIPY_CLIENT_SECRET: {client_secret}")
+# cred setup
 
 client_credentials_manager = SpotifyClientCredentials(
     client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
-# === Semaphore to limit concurrent API calls (Spotify recommends <10/sec) ===
+#semaphore
 semaphore = asyncio.Semaphore(3)
 
-# === Metadata Helper ===
+# metadata 
 
 
 def get_metadata():
@@ -37,7 +35,7 @@ def get_metadata():
         "timezone": str(datetime.datetime.now(datetime.timezone.utc).astimezone().tzinfo)
     }
 
-# === Album Fetch ===
+#album fetch helper function
 
 
 async def fetch_album(album_id):
@@ -55,7 +53,7 @@ async def fetch_album(album_id):
             **metadata
         }
 
-# === Track Fetch ===
+# track fetch helper function
 
 
 async def fetch_track(track_id):
@@ -74,7 +72,7 @@ async def fetch_track(track_id):
             **metadata
         }
 
-# === Artist Fetch ===
+# artist fetch helper function
 
 
 async def fetch_artist(artist_id):
@@ -90,8 +88,8 @@ async def fetch_artist(artist_id):
             **metadata
         }
 
-# === All Albums of Artist ===
-
+# fetch all functions
+# for albumns
 
 async def fetch_all_albums(artist_id):
     async with semaphore:
@@ -99,7 +97,7 @@ async def fetch_all_albums(artist_id):
         await asyncio.sleep(0.3)
         return [album['id'] for album in albums['items']]
 
-# === All Tracks of Album ===
+# help for tracks
 
 
 async def fetch_all_tracks(album_id):
@@ -108,7 +106,7 @@ async def fetch_all_tracks(album_id):
         await asyncio.sleep(0.3)
         return [track['id'] for track in tracks['items']]
 
-# === Save JSON ===
+#saving to json
 
 
 def save_json(data: List[dict], filename: str):
@@ -118,7 +116,7 @@ def save_json(data: List[dict], filename: str):
         json.dump(data, f, indent=4)
     print(f"Saved {filename} with {len(data)} records.")
 
-# === Controller Function ===
+#controller
 
 
 async def extract_everything(artist_ids: List[str]):
@@ -142,7 +140,7 @@ async def extract_everything(artist_ids: List[str]):
     save_json(all_artists, "artist_data.json")
     save_json(all_tracks, "track_data.json")
 
-# === Run Example ===
+#sample
 if __name__ == "__main__":
     # Example artist list (The Weeknd, Ariana Grande,arijit singh,ed sheeran)
     artist_ids = [
