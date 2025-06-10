@@ -1,0 +1,55 @@
+[
+    {
+        "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+        "name": "The Weeknd",
+        "genres": [],
+        "popularity": 96,
+        "extraction_datetime": "2025-06-10T17:22:07.827802",
+        "source": "Spotify API v1",
+        "extractor": "spotipy",
+        "data_version": "1.0",
+        "timezone": "IST"
+    },
+    {
+        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+        "name": "Ariana Grande",
+        "genres": [
+            "pop"
+        ],
+        "popularity": 93,
+        "extraction_datetime": "2025-06-10T17:23:00.368104",
+        "source": "Spotify API v1",
+        "extractor": "spotipy",
+        "data_version": "1.0",
+        "timezone": "IST"
+    },
+    {
+        "id": "4YRxDV8wJFPHPTeXepOstw",
+        "name": "Arijit Singh",
+        "genres": [
+            "hindi pop",
+            "bollywood",
+            "desi",
+            "bangla pop"
+        ],
+        "popularity": 92,
+        "extraction_datetime": "2025-06-10T17:24:04.988126",
+        "source": "Spotify API v1",
+        "extractor": "spotipy",
+        "data_version": "1.0",
+        "timezone": "IST"
+    },
+    {
+        "id": "6eUKZXaKkcviH0Ku9w2n3V",
+        "name": "Ed Sheeran",
+        "genres": [
+            "soft pop"
+        ],
+        "popularity": 91,
+        "extraction_datetime": "2025-06-10T17:25:06.183324",
+        "source": "Spotify API v1",
+        "extractor": "spotipy",
+        "data_version": "1.0",
+        "timezone": "IST"
+    }
+]
