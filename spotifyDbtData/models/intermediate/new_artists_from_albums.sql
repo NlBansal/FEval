@@ -1,22 +1,13 @@
 {{ config(
     materialized = 'incremental',
+    schema=generate_schema_name('staging', this),
     incremental_strategy = 'delete+insert',
     unique_key = 'name',
+    indexes = [
+        {"columns": ["id"], "unique": true}
+    ],
     pre_hook = [
-        """
-        DO $$
-        BEGIN
-            IF EXISTS (
-                SELECT 1
-                FROM information_schema.table_constraints
-                WHERE constraint_name = 'pk_artist_id'
-                  AND table_schema = '{{ this.schema }}'
-                  AND table_name = '{{ this.identifier }}'
-            ) THEN
-                EXECUTE format('ALTER TABLE {{ this }} DROP CONSTRAINT pk_artist_id');
-            END IF;
-        END
-        $$;
+        """ALTER TABLE {{ this }} DROP CONSTRAINT pk_artist_id;
         """
     ],
     post_hook = [
