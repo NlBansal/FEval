@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: spotifyData
+    schema: raw
+    quoting:
+      database: true
+      schema: true
+      identifier: true 
+    tables:
+      - name: albums
+      - name: artists
+      - name: tracks
