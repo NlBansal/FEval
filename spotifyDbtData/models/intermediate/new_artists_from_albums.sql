@@ -14,20 +14,17 @@ track_artists as (
     from {{ ref('staging_tracks') }}
 ),
 
--- Combine both artist sources
 all_raw_artists as (
     select name from album_artists
     union all
     select name from track_artists
 ),
 
--- Clean and deduplicate
 distinct_artists as (
     select distinct trim(name) as name
     from all_raw_artists
 ),
 
--- Add previously known artists
 all_artists as (
     select name from distinct_artists
     union
@@ -42,7 +39,6 @@ deduplicated_artists as (
     select distinct name from all_artists
 ),
 
--- Get max ID to increment from
 max_id as (
     {% if is_incremental() %}
         select coalesce(max(id), 0) as id from {{ this }}
@@ -51,7 +47,6 @@ max_id as (
     {% endif %}
 ),
 
--- Assign new IDs
 new_ids as (
     select
         row_number() over (order by name) + max_id.id as id,
