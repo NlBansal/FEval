@@ -1,0 +1,13 @@
+
+version: 2
+
+models:
+  - name: staging_albums
+    description: "A starter dbt model"
+
+  - name: staging_artists
+    description: "A starter dbt model"
+
+
+  - name: staging_tracks
+    description: "A starter dbt model"

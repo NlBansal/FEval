@@ -15,7 +15,8 @@ cleaned as (
         duration_ms::int,
         explicit ::boolean,
         popularity::int,
-        {{ split_timestamp('extraction_datetime', 'extraction_datetime') }},
+        extraction_datetime,
+        {{ split_timestamp('extraction_datetime', 'extract') }},
         source,
         timezone
     from source

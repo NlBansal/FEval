@@ -10,7 +10,8 @@ cleaned as (
         name,
         popularity::int,
         genres,
-        {{ split_timestamp('extraction_datetime', 'extraction_datetime') }},
+        extraction_datetime,
+        {{ split_timestamp('extraction_datetime', 'extract') }},
         source,
         data_version,
         timezone
