@@ -1,8 +1,29 @@
 {{ config(
     materialized = 'incremental',
     incremental_strategy = 'delete+insert',
-    unique_key = 'name'
+    unique_key = 'name',
+    pre_hook = [
+        """
+        DO $$
+        BEGIN
+            IF EXISTS (
+                SELECT 1
+                FROM information_schema.table_constraints
+                WHERE constraint_name = 'pk_artist_id'
+                  AND table_schema = '{{ this.schema }}'
+                  AND table_name = '{{ this.identifier }}'
+            ) THEN
+                EXECUTE format('ALTER TABLE {{ this }} DROP CONSTRAINT pk_artist_id');
+            END IF;
+        END
+        $$;
+        """
+    ],
+    post_hook = [
+        "ALTER TABLE {{ this }} ADD CONSTRAINT pk_artist_id PRIMARY KEY (id)"
+    ]
 ) }}
+
 
 with album_artists as (
     select unnest(artists_array) as name
