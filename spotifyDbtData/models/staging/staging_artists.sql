@@ -1,9 +1,13 @@
 {{ config(
-    materialized = "table",
+    materialized = 'incremental',
+    incremental_strategy = 'delete+insert',
+    unique_key = 'id'
 ) }}
+
 with source as (
     select * from {{ source('spotifyData', 'artists') }}
 ),
+
 cleaned as (
     select
         id,
@@ -16,5 +20,17 @@ cleaned as (
         data_version,
         timezone
     from source
+),
+
+filtered as (
+    select *
+    from cleaned
+    {% if is_incremental() %}
+        where extraction_datetime > (
+            select coalesce(max(extraction_datetime), '1900-01-01')
+            from {{ this }}
+        )
+    {% endif %}
 )
-select * from cleaned
+
+select * from filtered
