@@ -1,12 +1,13 @@
 {{ config(
     materialized = 'incremental',
-    incremental_strategy = 'delete+insert',
+    incremental_strategy = 'append',
     unique_key = 'artist_sk',
     indexes = [
         {"columns": ["artist_sk"]}
     ],
     pre_hook = [
         "CREATE SEQUENCE IF NOT EXISTS artist_seq START WITH 1 INCREMENT BY 1;",
+        "{% if not is_incremental() %}ALTER SEQUENCE IF EXISTS artist_seq RESTART WITH 1;{% endif %}",
         "{% if is_incremental() %}ALTER TABLE {{ this }} DROP CONSTRAINT IF EXISTS pk_artist_sk;{% endif %}"
     ],
     post_hook = [
