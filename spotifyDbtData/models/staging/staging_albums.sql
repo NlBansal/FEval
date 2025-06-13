@@ -1,6 +1,6 @@
 {{ config(
     materialized = 'incremental',
-    incremental_strategy = 'delete+insert',
+    incremental_strategy = 'merge',
     unique_key = 'id'
 ) }}
 
@@ -15,6 +15,7 @@ cleaned as (
         release_date,
         total_tracks::int,
         popularity::int,
+        release_date,
         string_to_array(artist_names, ', ') as artists_array,
         string_to_array(artist_ids, ', ') as artists_ids_array,
         string_to_array(track_names, ', ') as tracks_array,

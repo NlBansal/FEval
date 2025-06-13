@@ -38,4 +38,7 @@ models:
       +schema: staging
     intermediate:
       +materialized: table
-      +schema: intermediate  
+      +schema: intermediate
+    bridge:
+      +materialized: table
+      +schema: bridge
