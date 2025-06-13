@@ -42,3 +42,6 @@ models:
     bridge:
       +materialized: table
       +schema: bridge
+    dim:
+      +materialized: table
+      +schema: dim

@@ -12,7 +12,7 @@ cleaned as (
     select
         id,
         name,
-        genres,
+        string_to_array(genres, ', ') as genres_array,
         popularity::int,
         extraction_datetime,
         {{ split_timestamp('extraction_datetime', 'extract') }},
