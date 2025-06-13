@@ -85,6 +85,7 @@ DB_PORT = os.getenv("DB_PORT")
 DB_NAME = os.getenv("DB_NAME")
 SCHEMA_NAME = os.getenv("SCHEMA_NAME")
 
+
 engine = create_engine(
     f"postgresql+psycopg2://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 )
@@ -109,43 +110,38 @@ def upload_df(df, table_name):
     print(f"✅ Uploaded: {table_name}")
 
 
-def process_albums(file_path):
-    raw_data = load_json(file_path)
-    records = []
-
-    for item in raw_data:
-        artist_names = ', '.join([a['name'] for a in item.get('artists', [])])
-        artist_ids = ', '.join([a['id'] for a in item.get('artists', [])])
-
-        records.append({
+def process_albums(path):
+    raw = load_json(path)
+    flat_records = []
+    for item in raw:
+        flat_records.append({
             "id": item["id"],
             "name": item["name"],
             "release_date": item["release_date"],
             "total_tracks": item["total_tracks"],
             "popularity": item["popularity"],
-            "artist_names": artist_names,
-            "artist_ids": artist_ids,
+            "artist_names": ', '.join([a["name"] for a in item.get("artists", [])]),
+            "artist_ids": ', '.join([a["id"] for a in item.get("artists", [])]),
+            "track_ids": ', '.join([t["id"] for t in item.get("tracks", [])]) if "tracks" in item else None,
+            "track_names": ', '.join([t["name"] for t in item.get("tracks", [])]) if "tracks" in item else None,
             "extraction_datetime": item["extraction_datetime"],
             "source": item["source"],
             "extractor": item.get("extractor", "unknown"),
             "data_version": item["data_version"],
             "timezone": item["timezone"]
         })
-
-    df = pd.DataFrame(records)
+    df = pd.DataFrame(flat_records)
     upload_df(df, "albums")
 
 
-def process_artists(file_path):
-    raw_data = load_json(file_path)
-    records = []
-
-    for item in raw_data:
-        genres = ', '.join(item.get("genres", []))
-        records.append({
+def process_artists(path):
+    raw = load_json(path)
+    flat_records = []
+    for item in raw:
+        flat_records.append({
             "id": item["id"],
             "name": item["name"],
-            "genres": genres,
+            "genres": ', '.join(item.get("genres", [])),
             "popularity": item["popularity"],
             "extraction_datetime": item["extraction_datetime"],
             "source": item["source"],
@@ -153,28 +149,21 @@ def process_artists(file_path):
             "data_version": item["data_version"],
             "timezone": item["timezone"]
         })
-
-    df = pd.DataFrame(records)
+    df = pd.DataFrame(flat_records)
     upload_df(df, "artists")
 
 
-def process_tracks(file_path):
-    raw_data = load_json(file_path)
-    records = []
-
-    for item in raw_data:
-        artist_names = ', '.join([a['name'] for a in item.get('artist', [])])
-        artist_ids = ', '.join([a['id'] for a in item.get('artist', [])])
-        album_id = item["album"]["id"]
-        album_name = item["album"]["name"]
-
-        records.append({
+def process_tracks(path):
+    raw = load_json(path)
+    flat_records = []
+    for item in raw:
+        flat_records.append({
             "id": item["id"],
             "name": item["name"],
-            "artist_names": artist_names,
-            "artist_ids": artist_ids,
-            "album_id": album_id,
-            "album_name": album_name,
+            "artist_names": ', '.join([a["name"] for a in item.get("artist", [])]),
+            "artist_ids": ', '.join([a["id"] for a in item.get("artist", [])]),
+            "album_id": item["album"]["id"] if "album" in item else None,
+            "album_name": item["album"]["name"] if "album" in item else None,
             "duration_ms": item["duration_ms"],
             "explicit": item["explicit"],
             "popularity": item["popularity"],
@@ -184,11 +173,11 @@ def process_tracks(file_path):
             "data_version": item["data_version"],
             "timezone": item["timezone"]
         })
-
-    df = pd.DataFrame(records)
+    df = pd.DataFrame(flat_records)
     upload_df(df, "tracks")
 
 
-process_albums("/home/naman/Desktop/FEval/extraction/albums.json")
-process_artists("/home/naman/Desktop/FEval/extraction/artists.json")
-process_tracks("/home/naman/Desktop/FEval/extraction/tracks.json")
+if __name__ == "__main__":
+    process_albums("/home/naman/Desktop/FEval/extraction/albums.json")
+    process_artists("/home/naman/Desktop/FEval/extraction/artists.json")
+    process_tracks("/home/naman/Desktop/FEval/extraction/tracks.json")
