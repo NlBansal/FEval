@@ -1,28 +1,27 @@
-import spotipy
-from spotipy.oauth2 import SpotifyClientCredentials
-from dotenv import load_dotenv
-import datetime
-import json
 import os
+import json
 import asyncio
-from typing import List
+import aiohttp
+import random
+import datetime
+from dotenv import load_dotenv
+from spotipy.oauth2 import SpotifyClientCredentials
+from spotipy import Spotify
+from aiohttp import ClientSession, ClientTimeout, TCPConnector
+
 
 load_dotenv()
+CLIENT_ID = os.getenv("SPOTIPY_CLIENT_ID")
+CLIENT_SECRET = os.getenv("SPOTIPY_CLIENT_SECRET")
 
-# auth in .env
-client_id = os.getenv("SPOTIPY_CLIENT_ID")
-client_secret = os.getenv("SPOTIPY_CLIENT_SECRET")
+sp_sync = Spotify(auth_manager=SpotifyClientCredentials(
+    client_id=CLIENT_ID, client_secret=CLIENT_SECRET))
 
-# cred setup
 
-client_credentials_manager = SpotifyClientCredentials(
-    client_id=client_id, client_secret=client_secret)
-sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
+ARTISTS, ALBUMS, TRACKS = [], [], []
 
-#semaphore
-semaphore = asyncio.Semaphore(3)
-
-# metadata 
+# Semaphore
+semaphore = asyncio.Semaphore(4)
 
 
 def get_metadata():
@@ -35,118 +34,155 @@ def get_metadata():
         "timezone": str(datetime.datetime.now(datetime.timezone.utc).astimezone().tzinfo)
     }
 
-#album fetch helper function
+
+async def fetch(session, url, headers, max_retries=3):
+    for attempt in range(max_retries):
+        async with semaphore:
+            await asyncio.sleep(2 ** attempt + random.uniform(0.1, 0.5))
+            try:
+                async with session.get(url, headers=headers) as response:
+                    if response.status == 429:
+                        retry_after = int(
+                            response.headers.get("Retry-After", "1"))
+                        print(f"[429] Retrying after {retry_after}s: {url}")
+                        await asyncio.sleep(retry_after)
+                        continue
+                    elif response.status != 200:
+                        print(f"[{response.status}] Failed: {url}")
+                        return None
+                    return await response.json()
+            except aiohttp.ClientError as e:
+                print(f"[ClientError] {e} on {url}")
+            except Exception as e:
+                print(f"[Unexpected Error] {e} on {url}")
+    return None
 
 
-async def fetch_album(album_id):
-    async with semaphore:
-        album = await asyncio.to_thread(sp.album, album_id)
+async def fetch_artist_details(session, artist_id, headers):
+    url = f"https://api.spotify.com/v1/artists/{artist_id}"
+    return await fetch(session, url, headers)
+
+
+async def fetch_artist_albums(session, artist_id, headers):
+    url = f"https://api.spotify.com/v1/artists/{artist_id}/albums?limit=5&include_groups=album"
+    return await fetch(session, url, headers)
+
+
+async def fetch_album(session, album_id, headers):
+    url = f"https://api.spotify.com/v1/albums/{album_id}"
+    return await fetch(session, url, headers)
+
+
+async def fetch_track(session, track_id, headers):
+    url = f"https://api.spotify.com/v1/tracks/{track_id}"
+    return await fetch(session, url, headers)
+
+
+async def process_artist(session, artist_id, headers, metadata):
+    try:
+        artist_data = await fetch_artist_details(session, artist_id, headers)
+        if not artist_data or artist_data.get("popularity", 0) <= 80:
+            return
+
+        await asyncio.sleep(random.uniform(0.2, 0.5))
+        ARTISTS.append({**{
+            "id": artist_data["id"],
+            "name": artist_data["name"],
+            "genres": artist_data["genres"],
+            "popularity": artist_data["popularity"]
+        }, **metadata})
+
+        albums_data = await fetch_artist_albums(session, artist_id, headers)
+        if not albums_data:
+            return
+
+        await asyncio.sleep(random.uniform(0.2, 0.5))
+        album_ids = set()
+
+        for album in albums_data.get("items", []):
+            album_id = album["id"]
+            if album_id in album_ids:
+                continue
+            album_ids.add(album_id)
+
+            full_album = await fetch_album(session, album_id, headers)
+            if not full_album:
+                continue
+
+            await asyncio.sleep(random.uniform(0.2, 0.5))
+            ALBUMS.append({**{
+                "id": full_album["id"],
+                "name": full_album["name"],
+                "release_date": full_album["release_date"],
+                "total_tracks": full_album["total_tracks"],
+                "popularity": full_album["popularity"],
+                "artists": [{"id": a["id"], "name": a["name"]} for a in full_album["artists"]]
+            }, **metadata})
+
+            for track in full_album.get("tracks", {}).get("items", []):
+                full_track = await fetch_track(session, track["id"], headers)
+                if not full_track:
+                    continue
+
+                await asyncio.sleep(random.uniform(0.1, 0.3))
+                TRACKS.append({**{
+                    "id": full_track["id"],
+                    "name": full_track["name"],
+                    "artist": [{"id": a["id"], "name": a["name"]} for a in full_track["artists"]],
+                    "album": {"id": full_album["id"], "name": full_album["name"]},
+                    "duration_ms": full_track["duration_ms"],
+                    "explicit": full_track["explicit"],
+                    "popularity": full_track["popularity"]
+                }, **metadata})
+
+        await asyncio.sleep(random.uniform(0.3, 0.6))
+
+    except Exception as e:
+        print(f"[ERROR] Failed to process artist {artist_id}: {e}")
+
+
+async def main():
+    try:
+        auth_manager = SpotifyClientCredentials(
+            client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
+        token = auth_manager.get_access_token(as_dict=False)
+        headers = {"Authorization": f"Bearer {token}"}
+
+        connector = TCPConnector(limit=10)
+        timeout = ClientTimeout(total=60)
         metadata = get_metadata()
-        return {
-            "id": album['id'],
-            "name": album['name'],
-            "release_date": album['release_date'],
-            "total_tracks": album['total_tracks'],
-            "popularity": album['popularity'],
-            "artists": [artist['name'] for artist in album['artists']],
-            "tracks": [track['name'] for track in album['tracks']['items']],
-            **metadata
-        }
 
-# track fetch helper function
+        async with ClientSession(connector=connector, timeout=timeout) as session:
+            artist_ids = []
+            seen_ids = set()
+            search_terms = ["a", "e", "i", "m", "pop", "rock"]
 
+            for term in search_terms:
+                results = sp_sync.search(q=term, type="artist", limit=50)
+                for artist in results["artists"]["items"]:
+                    if artist["popularity"] > 80 and artist["id"] not in seen_ids:
+                        artist_ids.append(artist["id"])
+                        seen_ids.add(artist["id"])
 
-async def fetch_track(track_id):
-    async with semaphore:
-        track = await asyncio.to_thread(sp.track, track_id)
-        await asyncio.sleep(0.3)
-        metadata = get_metadata()
-        return {
-            "id": track['id'],
-            "name": track['name'],
-            "album": track['album']['name'],
-            "artist": [artist['name'] for artist in track['artists']],
-            "duration_ms": track['duration_ms'],
-            "explicit": track['explicit'],
-            "popularity": track['popularity'],
-            **metadata
-        }
+            print(f"Found {len(artist_ids)} unique popular artists...")
 
-# artist fetch helper function
+            tasks = [process_artist(session, artist_id, headers, metadata)
+                     for artist_id in artist_ids]
+            await asyncio.gather(*tasks)
 
+        with open("artists.json", "w") as f:
+            json.dump(ARTISTS, f, indent=2)
 
-async def fetch_artist(artist_id):
-    async with semaphore:
-        artist = await asyncio.to_thread(sp.artist, artist_id)
-        await asyncio.sleep(0.3)
-        metadata = get_metadata()
-        return {
-            "id": artist['id'],
-            "name": artist['name'],
-            "genres": artist['genres'],
-            "popularity": artist['popularity'],
-            **metadata
-        }
+        with open("albums.json", "w") as f:
+            json.dump(ALBUMS, f, indent=2)
 
-# fetch all functions
-# for albumns
+        with open("tracks.json", "w") as f:
+            json.dump(TRACKS, f, indent=2)
 
-async def fetch_all_albums(artist_id):
-    async with semaphore:
-        albums = await asyncio.to_thread(sp.artist_albums, artist_id, album_type='album')
-        await asyncio.sleep(0.3)
-        return [album['id'] for album in albums['items']]
+        print("Data with metadata saved to JSON files.")
 
-# help for tracks
+    except Exception as e:
+        print(f"[FATAL ERROR] {e}")
 
-
-async def fetch_all_tracks(album_id):
-    async with semaphore:
-        tracks = await asyncio.to_thread(sp.album_tracks, album_id)
-        await asyncio.sleep(0.3)
-        return [track['id'] for track in tracks['items']]
-
-#saving to json
-
-
-def save_json(data: List[dict], filename: str):
-    os.makedirs("output", exist_ok=True)
-    filepath = os.path.join("output", filename)
-    with open(filepath, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4)
-    print(f"Saved {filename} with {len(data)} records.")
-
-#controller
-
-
-async def extract_everything(artist_ids: List[str]):
-    all_albums, all_tracks, all_artists = [], [], []
-
-    for artist_id in artist_ids:
-        all_artists.append(await fetch_artist(artist_id))
-
-        album_ids = await fetch_all_albums(artist_id)
-        album_tasks = [fetch_album(album_id) for album_id in album_ids]
-        album_data = await asyncio.gather(*album_tasks)
-        all_albums.extend(album_data)
-
-        for album_id in album_ids:
-            track_ids = await fetch_all_tracks(album_id)
-            track_tasks = [fetch_track(track_id) for track_id in track_ids]
-            track_data = await asyncio.gather(*track_tasks)
-            all_tracks.extend(track_data)
-
-    save_json(all_albums, "album_data.json")
-    save_json(all_artists, "artist_data.json")
-    save_json(all_tracks, "track_data.json")
-
-#sample
 if __name__ == "__main__":
-    # Example artist list (The Weeknd, Ariana Grande,arijit singh,ed sheeran)
-    artist_ids = [
-        "1Xyo4u8uXC1ZmMpatF05PJ",
-        "66CXWjxzNUsdJxJ2JdwvnR",
-        "4YRxDV8wJFPHPTeXepOstw",
-        "6eUKZXaKkcviH0Ku9w2n3V"
-    ]
-    asyncio.run(extract_everything(artist_ids))
+    asyncio.run(main())

@@ -1,0 +1,3994 @@
+[
+  {
+    "id": "7afw53gMiXViBQI0Pcv5KZ",
+    "name": "Devara Part 1 Ost",
+    "release_date": "2025-04-11",
+    "total_tracks": 16,
+    "popularity": 50,
+    "artists": [
+      {
+        "id": "4zCH9qm4R2DADamUHMCa6O",
+        "name": "Anirudh Ravichander"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1FoOofZxijLGSXykNlUWkV",
+    "name": "Champion Series",
+    "release_date": "2024-12-14",
+    "total_tracks": 9,
+    "popularity": 28,
+    "artists": [
+      {
+        "id": "5sMk0h3nPvjOmjqG4BunmY",
+        "name": "Hume Da Muzika"
+      },
+      {
+        "id": "2oSONSC9zQ4UonDKnLqksx",
+        "name": "Atif Aslam"
+      },
+      {
+        "id": "6Kuo2OfaLtuet4vK1UnqSZ",
+        "name": "Twiil Swiiz Rsa"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "470a4sx8xtsGjn4PRSpGWu",
+    "name": "Bollywood Reimagined: Bollywood Fusion Remix",
+    "release_date": "2025-05-24",
+    "total_tracks": 8,
+    "popularity": 41,
+    "artists": [
+      {
+        "id": "5isjFRA5QMfArVpSLKKiOo",
+        "name": "Ali Merchant"
+      },
+      {
+        "id": "0eEI5r6nItYWVia06pHMa6",
+        "name": "ILA"
+      },
+      {
+        "id": "4YRxDV8wJFPHPTeXepOstw",
+        "name": "Arijit Singh"
+      },
+      {
+        "id": "1dVygo6tRFXC8CSWURQJq2",
+        "name": "Sonu Nigam"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "33dKLhGsfoLtN7Q6aaOmcn",
+    "name": "Nadaaniyan (Original Motion Picture Soundtrack)",
+    "release_date": "2025-03-03",
+    "total_tracks": 7,
+    "popularity": 51,
+    "artists": [
+      {
+        "id": "1mBydYMVBECdDmMfE2sEUO",
+        "name": "Sachin-Jigar"
+      },
+      {
+        "id": "2fMqTqiTxUDlmcOEPaQSsx",
+        "name": "Amitabh Bhattacharya"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3LiEOEujIjiWCEd0KcjZ4o",
+    "name": "Saptasur",
+    "release_date": "2025-06-12",
+    "total_tracks": 7,
+    "popularity": 0,
+    "artists": [
+      {
+        "id": "4K6blSRoklNdpw4mzLxwfn",
+        "name": "Kumar Sanu"
+      },
+      {
+        "id": "4X6co0WxbtFV28fHmDJjfv",
+        "name": "Shan"
+      },
+      {
+        "id": "3gBKY0y3dFFVRqicLnVZYz",
+        "name": "Alka Yagnik"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6bqZS60eLo3NhEQDtuUGaW",
+    "name": "Bad Newz",
+    "release_date": "2024-07-17",
+    "total_tracks": 8,
+    "popularity": 61,
+    "artists": [
+      {
+        "id": "6DARBhWbfcS9E4yJzcliqQ",
+        "name": "Karan Aujla"
+      },
+      {
+        "id": "5wJ1H6ud777odtZl5gG507",
+        "name": "Vishal Mishra"
+      },
+      {
+        "id": "3dN9MQpjIyNxyeRfz4EDZe",
+        "name": "Rochak Kohli"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "2GROf0WKoP5Er2M9RXVNNs",
+    "name": "The Car",
+    "release_date": "2022-10-21",
+    "total_tracks": 10,
+    "popularity": 64,
+    "artists": [
+      {
+        "id": "7Ln80lUS6He07XvHI8qqHH",
+        "name": "Arctic Monkeys"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6lC1JdGAJygilsW7JbTJDe",
+    "name": "Kadhalikka Neramillai (DIALOGUES)",
+    "release_date": "2025-06-05",
+    "total_tracks": 14,
+    "popularity": 24,
+    "artists": [
+      {
+        "id": "1mYsTxnqsietFxj1OgoGbG",
+        "name": "A.R. Rahman"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6cbwstHlsAIIWurIIXXBPd",
+    "name": "eternal sunshine deluxe: brighter days ahead",
+    "release_date": "2025-03-28",
+    "total_tracks": 19,
+    "popularity": 84,
+    "artists": [
+      {
+        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+        "name": "Ariana Grande"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4VMedo8R4GGqMXqv94Jtwq",
+    "name": "Trouble (20th Anniversary Edition)",
+    "release_date": "2024-08-16",
+    "total_tracks": 27,
+    "popularity": 47,
+    "artists": [
+      {
+        "id": "0z4gvV4rjIZ9wHck67ucSV",
+        "name": "Akon"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6DJslQtfD7mGFGZpfiyrVf",
+    "name": "LLNM2",
+    "release_date": "2022-12-09",
+    "total_tracks": 33,
+    "popularity": 73,
+    "artists": [
+      {
+        "id": "2R21vXR83lH98kGeO99Y66",
+        "name": "Anuel AA"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1R9fympoRsZJGpgNvMcJr2",
+    "name": "Walkerworld 2.0",
+    "release_date": "2025-01-10",
+    "total_tracks": 24,
+    "popularity": 66,
+    "artists": [
+      {
+        "id": "7vk5e3vY1uw9plTHJAMwjN",
+        "name": "Alan Walker"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3MATDdrpHmQCmuOcozZjDa",
+    "name": "TESTING",
+    "release_date": "2018-05-25",
+    "total_tracks": 15,
+    "popularity": 77,
+    "artists": [
+      {
+        "id": "13ubrt8QOOCPljQ2FL1Kca",
+        "name": "A$AP Rocky"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1eCGY9WJpYgtaFh1Lk2KNo",
+    "name": "You'll Be Alright, Kid (Chapter 1)",
+    "release_date": "2024-09-26",
+    "total_tracks": 11,
+    "popularity": 90,
+    "artists": [
+      {
+        "id": "0fTSzq9jAh4c36UVb4V7CB",
+        "name": "Alex Warren"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5ZewPP4nTMtJTn4krePB2d",
+    "name": "+-=\u00f7\u00d7 (Tour Collection: Live)",
+    "release_date": "2024-12-27",
+    "total_tracks": 50,
+    "popularity": 60,
+    "artists": [
+      {
+        "id": "6eUKZXaKkcviH0Ku9w2n3V",
+        "name": "Ed Sheeran"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "2DQ6hHlAGj6DiT0Y068bnK",
+    "name": "The Marshall Mathers LP (25th Anniversary)",
+    "release_date": "2025-05-23",
+    "total_tracks": 20,
+    "popularity": 63,
+    "artists": [
+      {
+        "id": "7dGJo4pcD2V6oG8kP0tJRR",
+        "name": "Eminem"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5nskZ8CFMrSNiOrceMHr4B",
+    "name": "DESIRE : UNLEASH",
+    "release_date": "2025-06-05",
+    "total_tracks": 8,
+    "popularity": 81,
+    "artists": [
+      {
+        "id": "5t5FqBwTcgKTaWmfEbwQY9",
+        "name": "ENHYPEN"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0tQ7PlTEtVLEhP85VlUcsB",
+    "name": "Rare Gems From Anuradha Paudwal",
+    "release_date": "2025-06-07",
+    "total_tracks": 8,
+    "popularity": 26,
+    "artists": [
+      {
+        "id": "4hkB2bR5ek6lJChj6aunCn",
+        "name": "Anuradha Paudwal"
+      },
+      {
+        "id": "2ae6PxICSOZHvjqiCcgon8",
+        "name": "S. P. Balasubrahmanyam"
+      },
+      {
+        "id": "0GF4shudTAFv8ak9eWdd4Y",
+        "name": "Kishore Kumar"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5LHd4piJoHcz4CXhjsFKxx",
+    "name": "FINAL (Vol.2)",
+    "release_date": "2024-03-29",
+    "total_tracks": 10,
+    "popularity": 57,
+    "artists": [
+      {
+        "id": "7qG3b048QCHVRO5Pv1T5lw",
+        "name": "Enrique Iglesias"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1Q5WON8dw2JFLP5JVQXu1e",
+    "name": "SOS Deluxe: LANA",
+    "release_date": "2025-02-09",
+    "total_tracks": 42,
+    "popularity": 76,
+    "artists": [
+      {
+        "id": "7tYKF4w9nC0nq9CsPZTHyP",
+        "name": "SZA"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6FL3GfTcb8cf4xwMJlcynq",
+    "name": "Higher Than Heaven (Deluxe)",
+    "release_date": "2023-04-07",
+    "total_tracks": 16,
+    "popularity": 49,
+    "artists": [
+      {
+        "id": "0X2BH1fck6amBIoJhDVmmJ",
+        "name": "Ellie Goulding"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5eS9zcWHCbkOiyXPRiIgg4",
+    "name": "Who Believes In Angels?",
+    "release_date": "2025-04-04",
+    "total_tracks": 10,
+    "popularity": 55,
+    "artists": [
+      {
+        "id": "3PhoLpVuITZKcymswpck5b",
+        "name": "Elton John"
+      },
+      {
+        "id": "2sG4zTOLvjKG1PSoOyf5Ej",
+        "name": "Brandi Carlile"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "77WXheyyYBkqqz6Q19l37a",
+    "name": "DON KBRN",
+    "release_date": "2025-04-03",
+    "total_tracks": 22,
+    "popularity": 81,
+    "artists": [
+      {
+        "id": "5XJDexmWFLWOkjOEjOVX3e",
+        "name": "Eladio Carrion"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5NLO9sMI3xznCGrRWhsPN3",
+    "name": "Madame X - Music From The Theater Xperience (Live)",
+    "release_date": "2021-10-08",
+    "total_tracks": 20,
+    "popularity": 36,
+    "artists": [
+      {
+        "id": "6tbjWDEIzxoDsBA1FuhfPW",
+        "name": "Madonna"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "7aJuG4TFXa2hmE4z1yxc3n",
+    "name": "HIT ME HARD AND SOFT",
+    "release_date": "2024-05-17",
+    "total_tracks": 10,
+    "popularity": 96,
+    "artists": [
+      {
+        "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+        "name": "Billie Eilish"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6CPodMnqYXqbfZ9Rw8CO1e",
+    "name": "Ask That God (Deluxe)",
+    "release_date": "2025-01-24",
+    "total_tracks": 14,
+    "popularity": 53,
+    "artists": [
+      {
+        "id": "67hb7towEyKvt5Z8Bx306c",
+        "name": "Empire Of The Sun"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5IcsHifVLGG0emBPlMZacj",
+    "name": "MIXTAPE PLUTO",
+    "release_date": "2024-11-01",
+    "total_tracks": 18,
+    "popularity": 61,
+    "artists": [
+      {
+        "id": "1RyvyyTE3xzB2ZywiAwp0i",
+        "name": "Future"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6h5tdNdOnnFL6zbeMeeqdk",
+    "name": "Reinsertado",
+    "release_date": "2023-05-12",
+    "total_tracks": 19,
+    "popularity": 73,
+    "artists": [
+      {
+        "id": "4az97MtWmBQ5Db3GfDh9j9",
+        "name": "Morad"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "7vNqlfthayItIbI0Ssmfoa",
+    "name": "LOOK AT ME: THE ALBUM",
+    "release_date": "2022-06-10",
+    "total_tracks": 25,
+    "popularity": 67,
+    "artists": [
+      {
+        "id": "15UsOTVnJzReFVN1VCnxy4",
+        "name": "XXXTENTACION"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5IBigZKJt8uffeMjKw5uEl",
+    "name": "Reflections (From The Vault Of Smoke + Mirrors)",
+    "release_date": "2025-02-21",
+    "total_tracks": 14,
+    "popularity": 61,
+    "artists": [
+      {
+        "id": "53XhwfbYqKCa1cC15pYq2q",
+        "name": "Imagine Dragons"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4QwYcMNFzIhUctirR6XKDM",
+    "name": "MIRADA",
+    "release_date": "2024-07-19",
+    "total_tracks": 12,
+    "popularity": 83,
+    "artists": [
+      {
+        "id": "6PH3FLQAxtqYy46Zv08bpV",
+        "name": "Ivan Cornejo"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5yPu6XkHu8DAGmV6YkXYZq",
+    "name": "Alligator Bites Never Heal (Extended)",
+    "release_date": "2025-03-14",
+    "total_tracks": 20,
+    "popularity": 75,
+    "artists": [
+      {
+        "id": "4E2rKHVDssGJm2SCDOMMJB",
+        "name": "Doechii"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "2eFnYSAXDgEO5f3TkGJXik",
+    "name": "Haryanvi Viral Hits",
+    "release_date": "2025-04-21",
+    "total_tracks": 7,
+    "popularity": 40,
+    "artists": [
+      {
+        "id": "36iDrP3UnCxsSH9LuSdkDj",
+        "name": "Masoom Sharma"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1pCA38N6MkLlthXtAOvZTU",
+    "name": "JORDI (Deluxe)",
+    "release_date": "2021-06-11",
+    "total_tracks": 14,
+    "popularity": 78,
+    "artists": [
+      {
+        "id": "04gDigrS5kc9YWfZHwBETP",
+        "name": "Maroon 5"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4VZ7jhV0wHpoNPCB7Vmiml",
+    "name": "An Evening With Silk Sonic",
+    "release_date": "2021-11-12",
+    "total_tracks": 10,
+    "popularity": 70,
+    "artists": [
+      {
+        "id": "0du5cEVh5yTK9QJze8zA0C",
+        "name": "Bruno Mars"
+      },
+      {
+        "id": "3jK9MiCrA42lLAdMGUZpwa",
+        "name": "Anderson .Paak"
+      },
+      {
+        "id": "6PvvGcCY2XtUcSRld1Wilr",
+        "name": "Silk Sonic"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5IZ8sY5FjtL9hloXpv0XbD",
+    "name": "I\u2019m The Problem",
+    "release_date": "2025-05-16",
+    "total_tracks": 37,
+    "popularity": 98,
+    "artists": [
+      {
+        "id": "4oUHIQIBe0LHzYfvXNW4QM",
+        "name": "Morgan Wallen"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3bSNhnaQQXpC639OQ4pMyP",
+    "name": "WE STILL DON'T TRUST YOU",
+    "release_date": "2024-04-12",
+    "total_tracks": 25,
+    "popularity": 77,
+    "artists": [
+      {
+        "id": "1RyvyyTE3xzB2ZywiAwp0i",
+        "name": "Future"
+      },
+      {
+        "id": "0iEtIxbK0KxaSlF7G42ZOp",
+        "name": "Metro Boomin"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "27bcWf41ghwRCrfTS1OjXj",
+    "name": "LYKE MIIKE (DELUXE)",
+    "release_date": "2025-02-06",
+    "total_tracks": 37,
+    "popularity": 70,
+    "artists": [
+      {
+        "id": "7iK8PXO48WeuP03g8YR51W",
+        "name": "Myke Towers"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3Fk8yQvPlCHgwR2pNhEIRA",
+    "name": "Don Juan",
+    "release_date": "2023-08-25",
+    "total_tracks": 25,
+    "popularity": 73,
+    "artists": [
+      {
+        "id": "1r4hJ1h58CWwUQe3MxPuau",
+        "name": "Maluma"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5FYFgRnlsl9Qrm1xD8cqo7",
+    "name": "Shawn",
+    "release_date": "2024-11-15",
+    "total_tracks": 12,
+    "popularity": 70,
+    "artists": [
+      {
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "7h7smPzBYx8LOLI3ncM3vQ",
+    "name": "Something Beautiful",
+    "release_date": "2025-05-30",
+    "total_tracks": 13,
+    "popularity": 81,
+    "artists": [
+      {
+        "id": "5YGY8feqx7naU7z4HrwZM6",
+        "name": "Miley Cyrus"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3beZ5DRcWVTpXaU3ViLIF6",
+    "name": "LO MISMO DE SIEMPRE",
+    "release_date": "2025-05-18",
+    "total_tracks": 17,
+    "popularity": 89,
+    "artists": [
+      {
+        "id": "0Q8NcsJwoCbZOHHW63su5S",
+        "name": "Mora"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "2MHUaRi9OCyTN02SoyRRBJ",
+    "name": "MAYHEM",
+    "release_date": "2025-03-07",
+    "total_tracks": 14,
+    "popularity": 91,
+    "artists": [
+      {
+        "id": "1HY2Jd0NmPuamShAr6KMms",
+        "name": "Lady Gaga"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "03guxdOi12XJbnvxvxbpwG",
+    "name": "Submarine",
+    "release_date": "2024-05-31",
+    "total_tracks": 14,
+    "popularity": 87,
+    "artists": [
+      {
+        "id": "2sSGPbdZJkaSE2AbcGOACx",
+        "name": "The Mar\u00edas"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3OxfaVgvTxUTy7276t7SPU",
+    "name": "Hurry Up Tomorrow",
+    "release_date": "2025-01-31",
+    "total_tracks": 22,
+    "popularity": 91,
+    "artists": [
+      {
+        "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+        "name": "The Weeknd"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6FfXtcC6KsOTOO3GehQZ8x",
+    "name": "Rocky Aur Rani Kii Prem Kahaani",
+    "release_date": "2024-05-15",
+    "total_tracks": 15,
+    "popularity": 69,
+    "artists": [
+      {
+        "id": "1wRPtKGflJrBx9BmLsSwlU",
+        "name": "Pritam"
+      },
+      {
+        "id": "2fMqTqiTxUDlmcOEPaQSsx",
+        "name": "Amitabh Bhattacharya"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3ZfwGjZrvWD6gsOZpEUduS",
+    "name": "Robi Anuragini",
+    "release_date": "2025-04-23",
+    "total_tracks": 16,
+    "popularity": 23,
+    "artists": [
+      {
+        "id": "6DJIc5e4tmfVMoZh7IT35N",
+        "name": "Indrani Sen"
+      },
+      {
+        "id": "3gBKY0y3dFFVRqicLnVZYz",
+        "name": "Alka Yagnik"
+      },
+      {
+        "id": "3R2OMv8JpXLy6ZIW7Qxz59",
+        "name": "Usha Mangeshkar"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3SovTu92rBDxhD0g8boc01",
+    "name": "Badmashi Aala Scene",
+    "release_date": "2025-04-10",
+    "total_tracks": 7,
+    "popularity": 40,
+    "artists": [
+      {
+        "id": "36iDrP3UnCxsSH9LuSdkDj",
+        "name": "Masoom Sharma"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3znHhJCA8Xxcdf1oyumLJ6",
+    "name": "Rock With Ma Andi",
+    "release_date": "2025-02-23",
+    "total_tracks": 6,
+    "popularity": 34,
+    "artists": [
+      {
+        "id": "5sMk0h3nPvjOmjqG4BunmY",
+        "name": "Hume Da Muzika"
+      },
+      {
+        "id": "4YRxDV8wJFPHPTeXepOstw",
+        "name": "Arijit Singh"
+      },
+      {
+        "id": "14jeVl1p0FjlOJQQCzmJ8r",
+        "name": "Ma Andi"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3UFq6P2Qu3yNM2hMZqfZ1Y",
+    "name": "Street Dreams",
+    "release_date": "2024-02-16",
+    "total_tracks": 7,
+    "popularity": 65,
+    "artists": [
+      {
+        "id": "4Ai0pGz6GhQavjzaRhPTvz",
+        "name": "DIVINE"
+      },
+      {
+        "id": "6DARBhWbfcS9E4yJzcliqQ",
+        "name": "Karan Aujla"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "380UbSJnNQ9SioALGRB0Cf",
+    "name": "ROMANCE : UNTOLD -daydream-",
+    "release_date": "2024-11-11",
+    "total_tracks": 11,
+    "popularity": 73,
+    "artists": [
+      {
+        "id": "5t5FqBwTcgKTaWmfEbwQY9",
+        "name": "ENHYPEN"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "2vV5mZ9R9WMqjPW6KXQoQa",
+    "name": "Great Chants of Shiva",
+    "release_date": "2025-06-06",
+    "total_tracks": 3,
+    "popularity": 4,
+    "artists": [
+      {
+        "id": "2ae6PxICSOZHvjqiCcgon8",
+        "name": "S. P. Balasubrahmanyam"
+      },
+      {
+        "id": "0mV4UQ0gHg59AAUtg968pX",
+        "name": "Unnikrishnan"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0Fhtccg0ZS6TyJ6PZaehe8",
+    "name": "Lover (Original Motion Picture Soundtrack)",
+    "release_date": "2022-05-26",
+    "total_tracks": 7,
+    "popularity": 43,
+    "artists": [
+      {
+        "id": "2oSONSC9zQ4UonDKnLqksx",
+        "name": "Atif Aslam"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "7Heaa0B4KOxdWhSICTR2wE",
+    "name": "Live at the Royal Albert Hall",
+    "release_date": "2020-12-04",
+    "total_tracks": 20,
+    "popularity": 54,
+    "artists": [
+      {
+        "id": "7Ln80lUS6He07XvHI8qqHH",
+        "name": "Arctic Monkeys"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "61a4XyIj98CGrUnKy8Hu4Z",
+    "name": "FINAL (Vol.1)",
+    "release_date": "2021-09-17",
+    "total_tracks": 11,
+    "popularity": 69,
+    "artists": [
+      {
+        "id": "7qG3b048QCHVRO5Pv1T5lw",
+        "name": "Enrique Iglesias"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3bfgBQwwP00KPKz6QmsNYz",
+    "name": "Regimental Sgt. Zippo",
+    "release_date": "2022-07-08",
+    "total_tracks": 12,
+    "popularity": 33,
+    "artists": [
+      {
+        "id": "3PhoLpVuITZKcymswpck5b",
+        "name": "Elton John"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4PgleR09JVnm3zY1fW3XBA",
+    "name": "24K Magic",
+    "release_date": "2016-11-17",
+    "total_tracks": 9,
+    "popularity": 84,
+    "artists": [
+      {
+        "id": "0du5cEVh5yTK9QJze8zA0C",
+        "name": "Bruno Mars"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0JGOiO34nwfUdDrD612dOp",
+    "name": "Happier Than Ever",
+    "release_date": "2021-07-30",
+    "total_tracks": 16,
+    "popularity": 87,
+    "artists": [
+      {
+        "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+        "name": "Billie Eilish"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6dS1LgbFD5CtGZJaHIWeqn",
+    "name": "Sri Ayyappa",
+    "release_date": "2025-05-05",
+    "total_tracks": 8,
+    "popularity": 26,
+    "artists": [
+      {
+        "id": "2ae6PxICSOZHvjqiCcgon8",
+        "name": "S. P. Balasubrahmanyam"
+      },
+      {
+        "id": "3m49WVMU4zCkaVEKb8kFW7",
+        "name": "Ilaiyaraaja"
+      },
+      {
+        "id": "24klC5KXBHi8Lgj8dYRfsk",
+        "name": "Shankaran Nambodiri"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "7dFnP4kqkS8va6P0UiVKaW",
+    "name": "Da\u00f1ado (Deluxe)",
+    "release_date": "2022-12-02",
+    "total_tracks": 10,
+    "popularity": 70,
+    "artists": [
+      {
+        "id": "6PH3FLQAxtqYy46Zv08bpV",
+        "name": "Ivan Cornejo"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "2sDPTkswUWDLtZYiOzubTe",
+    "name": "Wonder (Deluxe)",
+    "release_date": "2020-12-07",
+    "total_tracks": 24,
+    "popularity": 53,
+    "artists": [
+      {
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5DvJgsMLbaR1HmAI6VhfcQ",
+    "name": "Endless Summer Vacation",
+    "release_date": "2023-08-18",
+    "total_tracks": 14,
+    "popularity": 81,
+    "artists": [
+      {
+        "id": "5YGY8feqx7naU7z4HrwZM6",
+        "name": "Miley Cyrus"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1q6GzjsUS9kyQmEDH7D1Ak",
+    "name": "Thug Life (Tamil)",
+    "release_date": "2025-06-04",
+    "total_tracks": 10,
+    "popularity": 57,
+    "artists": [
+      {
+        "id": "1mYsTxnqsietFxj1OgoGbG",
+        "name": "A.R. Rahman"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5iEtQfZATfimid3Ogvce5m",
+    "name": "Ask That God",
+    "release_date": "2024-07-26",
+    "total_tracks": 12,
+    "popularity": 62,
+    "artists": [
+      {
+        "id": "67hb7towEyKvt5Z8Bx306c",
+        "name": "Empire Of The Sun"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "7EPrkhjTBrwAV8yAKCmY0Y",
+    "name": "LOOM",
+    "release_date": "2024-06-28",
+    "total_tracks": 10,
+    "popularity": 75,
+    "artists": [
+      {
+        "id": "53XhwfbYqKCa1cC15pYq2q",
+        "name": "Imagine Dragons"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1Li4rADxSxjT2g4xqUcMYh",
+    "name": "Red Pill Blues (Deluxe)",
+    "release_date": "2018-06-15",
+    "total_tracks": 22,
+    "popularity": 78,
+    "artists": [
+      {
+        "id": "04gDigrS5kc9YWfZHwBETP",
+        "name": "Maroon 5"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3X2oYJbZtrmszmNeXRpckc",
+    "name": "Joker: Folie \u00e0 Deux (Music From The Motion Picture)",
+    "release_date": "2024-10-04",
+    "total_tracks": 16,
+    "popularity": 51,
+    "artists": [
+      {
+        "id": "3j507n6aQUbtVxQv2Q6Usv",
+        "name": "Joaquin Phoenix"
+      },
+      {
+        "id": "1HY2Jd0NmPuamShAr6KMms",
+        "name": "Lady Gaga"
+      },
+      {
+        "id": "0NTFz1R2aoAcQHzSBF1T7R",
+        "name": "Cast of Joker: Folie \u00e0 Deux"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "63OVAw3XKXePV928emHvUa",
+    "name": "The Arijit Singh Collection Vol.3",
+    "release_date": "2025-02-07",
+    "total_tracks": 21,
+    "popularity": 43,
+    "artists": [
+      {
+        "id": "4YRxDV8wJFPHPTeXepOstw",
+        "name": "Arijit Singh"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5TkaDC4mYSLBvdG6UrIB0v",
+    "name": "CINEMA",
+    "release_date": "2021-06-25",
+    "total_tracks": 13,
+    "popularity": 78,
+    "artists": [
+      {
+        "id": "2sSGPbdZJkaSE2AbcGOACx",
+        "name": "The Mar\u00edas"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3arNdjotCvtiiLFfjKngMc",
+    "name": "AT.LONG.LAST.A$AP",
+    "release_date": "2015-05-26",
+    "total_tracks": 18,
+    "popularity": 80,
+    "artists": [
+      {
+        "id": "13ubrt8QOOCPljQ2FL1Kca",
+        "name": "A$AP Rocky"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "18bNt1yrRSvmosvtNEmZxC",
+    "name": "New Year Party Mix",
+    "release_date": "2024-11-11",
+    "total_tracks": 7,
+    "popularity": 30,
+    "artists": [
+      {
+        "id": "36iDrP3UnCxsSH9LuSdkDj",
+        "name": "Masoom Sharma"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4Gc54dLHsvicE1V82RuqKI",
+    "name": "Devara Part 1 (DIALOGUES) [MALAYALAM]",
+    "release_date": "2025-02-07",
+    "total_tracks": 18,
+    "popularity": 20,
+    "artists": [
+      {
+        "id": "4zCH9qm4R2DADamUHMCa6O",
+        "name": "Anirudh Ravichander"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3BGU0BqGwBkYDHpfCWFm7I",
+    "name": "Making Memories",
+    "release_date": "2023-08-18",
+    "total_tracks": 9,
+    "popularity": 76,
+    "artists": [
+      {
+        "id": "6DARBhWbfcS9E4yJzcliqQ",
+        "name": "Karan Aujla"
+      },
+      {
+        "id": "3nqS8jzqmsPKFJTp0BOIel",
+        "name": "Ikky"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5EnCmhahbIADlTDZJUqzYh",
+    "name": "Brightest Blue",
+    "release_date": "2020-07-17",
+    "total_tracks": 19,
+    "popularity": 43,
+    "artists": [
+      {
+        "id": "0X2BH1fck6amBIoJhDVmmJ",
+        "name": "Ellie Goulding"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1ujIERX0vWqw9kcYr6VMRp",
+    "name": "YRF Top 10 - Falling in Love",
+    "release_date": "2021-02-13",
+    "total_tracks": 10,
+    "popularity": 67,
+    "artists": [
+      {
+        "id": "2oSONSC9zQ4UonDKnLqksx",
+        "name": "Atif Aslam"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0SoJvPHbKVhvmVJOp3kzp3",
+    "name": "ESTRELLA",
+    "release_date": "2023-08-28",
+    "total_tracks": 15,
+    "popularity": 76,
+    "artists": [
+      {
+        "id": "0Q8NcsJwoCbZOHHW63su5S",
+        "name": "Mora"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3bSNhnaQQXpC639OQ4pMyP",
+    "name": "WE STILL DON'T TRUST YOU",
+    "release_date": "2024-04-12",
+    "total_tracks": 25,
+    "popularity": 77,
+    "artists": [
+      {
+        "id": "1RyvyyTE3xzB2ZywiAwp0i",
+        "name": "Future"
+      },
+      {
+        "id": "0iEtIxbK0KxaSlF7G42ZOp",
+        "name": "Metro Boomin"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "7saicsozAZSsKEVQh4WAig",
+    "name": "eternal sunshine deluxe: brighter days ahead (instrumental version)",
+    "release_date": "2025-03-27",
+    "total_tracks": 38,
+    "popularity": 65,
+    "artists": [
+      {
+        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+        "name": "Ariana Grande"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "60IwCIJHvLeYYCI6C837fh",
+    "name": "M.D.L.R",
+    "release_date": "2019-05-03",
+    "total_tracks": 10,
+    "popularity": 51,
+    "artists": [
+      {
+        "id": "4az97MtWmBQ5Db3GfDh9j9",
+        "name": "Morad"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "31hcgCSu4mlA82syOFItur",
+    "name": "The Death of Slim Shady (Coup De Gr\u00e2ce): Expanded Mourner\u2019s Edition",
+    "release_date": "2024-09-13",
+    "total_tracks": 23,
+    "popularity": 63,
+    "artists": [
+      {
+        "id": "7dGJo4pcD2V6oG8kP0tJRR",
+        "name": "Eminem"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "05I8FltCMnGa3kE38mpOkL",
+    "name": "ROMANCE : UNTOLD",
+    "release_date": "2024-07-12",
+    "total_tracks": 9,
+    "popularity": 77,
+    "artists": [
+      {
+        "id": "5t5FqBwTcgKTaWmfEbwQY9",
+        "name": "ENHYPEN"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4pnhHLvaRIlDUwXEIXZEnH",
+    "name": "True Blue (35th Anniversary Edition)",
+    "release_date": "2021-07-30",
+    "total_tracks": 18,
+    "popularity": 43,
+    "artists": [
+      {
+        "id": "6tbjWDEIzxoDsBA1FuhfPW",
+        "name": "Madonna"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "58ufpQsJ1DS5kq4hhzQDiI",
+    "name": "Unorthodox Jukebox",
+    "release_date": "2012-12-07",
+    "total_tracks": 10,
+    "popularity": 86,
+    "artists": [
+      {
+        "id": "0du5cEVh5yTK9QJze8zA0C",
+        "name": "Bruno Mars"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "60UzB8mOCMpc7xkuJE6Bwc",
+    "name": "Alligator Bites Never Heal",
+    "release_date": "2024-08-30",
+    "total_tracks": 19,
+    "popularity": 83,
+    "artists": [
+      {
+        "id": "4E2rKHVDssGJm2SCDOMMJB",
+        "name": "Doechii"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "57GMM3pHIZNmJ0tF2S8QvB",
+    "name": "Makara Jyothi Ayyappa",
+    "release_date": "2025-05-05",
+    "total_tracks": 8,
+    "popularity": 6,
+    "artists": [
+      {
+        "id": "2ae6PxICSOZHvjqiCcgon8",
+        "name": "S. P. Balasubrahmanyam"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6IUWEebcIc0hs0CkOXemt4",
+    "name": "SEX AND LOVE (Deluxe)",
+    "release_date": "2014-01-01",
+    "total_tracks": 15,
+    "popularity": 62,
+    "artists": [
+      {
+        "id": "7qG3b048QCHVRO5Pv1T5lw",
+        "name": "Enrique Iglesias"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "2zE9RJSh5sMV0NJ8Oc8k5s",
+    "name": "Sol Mar\u00eda",
+    "release_date": "2024-01-19",
+    "total_tracks": 17,
+    "popularity": 69,
+    "artists": [
+      {
+        "id": "5XJDexmWFLWOkjOEjOVX3e",
+        "name": "Eladio Carrion"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "35dut3ICqF3NEDkjxfzJJ1",
+    "name": "Starboy (Deluxe)",
+    "release_date": "2023-03-14",
+    "total_tracks": 21,
+    "popularity": 70,
+    "artists": [
+      {
+        "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+        "name": "The Weeknd"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1YD1A1RdHPNuRyhVSWsSOm",
+    "name": "Zara Hatke Zara Bachke",
+    "release_date": "2023-08-25",
+    "total_tracks": 7,
+    "popularity": 61,
+    "artists": [
+      {
+        "id": "1mBydYMVBECdDmMfE2sEUO",
+        "name": "Sachin-Jigar"
+      },
+      {
+        "id": "2fMqTqiTxUDlmcOEPaQSsx",
+        "name": "Amitabh Bhattacharya"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0N5UdJXj3N2Bjg5KnPAVHQ",
+    "name": "Madman Across The Water (Deluxe Edition)",
+    "release_date": "2022-06-10",
+    "total_tracks": 34,
+    "popularity": 39,
+    "artists": [
+      {
+        "id": "3PhoLpVuITZKcymswpck5b",
+        "name": "Elton John"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1i5VsPI1sXn847oHyXyZCh",
+    "name": "Da\u00f1ado",
+    "release_date": "2022-06-02",
+    "total_tracks": 7,
+    "popularity": 76,
+    "artists": [
+      {
+        "id": "6PH3FLQAxtqYy46Zv08bpV",
+        "name": "Ivan Cornejo"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5vhXfaLyondHBQpHs4csmB",
+    "name": "Haryanvi Super Hit Songs",
+    "release_date": "2024-08-14",
+    "total_tracks": 8,
+    "popularity": 38,
+    "artists": [
+      {
+        "id": "36iDrP3UnCxsSH9LuSdkDj",
+        "name": "Masoom Sharma"
+      },
+      {
+        "id": "0481f4CMOOSlFB69C2wyZf",
+        "name": "Raj Mawar"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "22EhXxi49UD7p8EEhnqK5A",
+    "name": "LOVE FOREVER",
+    "release_date": "2025-02-12",
+    "total_tracks": 10,
+    "popularity": 24,
+    "artists": [
+      {
+        "id": "4KLgHjQieY43a6kj6WVyxx",
+        "name": "Dj Aqeel"
+      },
+      {
+        "id": "3gBKY0y3dFFVRqicLnVZYz",
+        "name": "Alka Yagnik"
+      },
+      {
+        "id": "70B80Lwx2sxti0M1Ng9e8K",
+        "name": "Udit Narayan"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "2pElzwHGoJr3zPA05onhr0",
+    "name": "Walkerworld",
+    "release_date": "2023-11-10",
+    "total_tracks": 10,
+    "popularity": 69,
+    "artists": [
+      {
+        "id": "7vk5e3vY1uw9plTHJAMwjN",
+        "name": "Alan Walker"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "01fVYiKOdgZO6FF0PorLD7",
+    "name": "Ambient Music",
+    "release_date": "2025-05-28",
+    "total_tracks": 10,
+    "popularity": 26,
+    "artists": [
+      {
+        "id": "1mYsTxnqsietFxj1OgoGbG",
+        "name": "A.R. Rahman"
+      },
+      {
+        "id": "2owjgBZQ70LoCNHIgW3gSk",
+        "name": "Anand-Milind"
+      },
+      {
+        "id": "1ShV4w1KY1Sofk04H6qzdL",
+        "name": "Amjad Bagadwa"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0fQaGkCbRIg5z7ta2SCrY0",
+    "name": "Imagine Dragons Live in Vegas",
+    "release_date": "2023-07-28",
+    "total_tracks": 23,
+    "popularity": 62,
+    "artists": [
+      {
+        "id": "53XhwfbYqKCa1cC15pYq2q",
+        "name": "Imagine Dragons"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3hn46RDrEmoi4XhLjgdNjZ",
+    "name": "Bad Vibes Forever",
+    "release_date": "2019-12-06",
+    "total_tracks": 25,
+    "popularity": 74,
+    "artists": [
+      {
+        "id": "15UsOTVnJzReFVN1VCnxy4",
+        "name": "XXXTENTACION"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0C3ZDkBKTqGvwZzqaZMigT",
+    "name": "The Love & Sex Tape (Deluxe Edition)",
+    "release_date": "2022-08-19",
+    "total_tracks": 11,
+    "popularity": 44,
+    "artists": [
+      {
+        "id": "1r4hJ1h58CWwUQe3MxPuau",
+        "name": "Maluma"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4iqbFIdGOTzXeDtt9owjQn",
+    "name": "WE DON'T TRUST YOU",
+    "release_date": "2024-03-22",
+    "total_tracks": 17,
+    "popularity": 84,
+    "artists": [
+      {
+        "id": "1RyvyyTE3xzB2ZywiAwp0i",
+        "name": "Future"
+      },
+      {
+        "id": "0iEtIxbK0KxaSlF7G42ZOp",
+        "name": "Metro Boomin"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5EuL5Jp1caNNj9m8bQ1V6u",
+    "name": "Bacthafu*up",
+    "release_date": "2021-09-15",
+    "total_tracks": 12,
+    "popularity": 56,
+    "artists": [
+      {
+        "id": "6DARBhWbfcS9E4yJzcliqQ",
+        "name": "Karan Aujla"
+      },
+      {
+        "id": "0u7HSxKLO9fsEeD20dW4H2",
+        "name": "Tru-Skool"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4Htn2Uj8RCCJyqt2HVD6Ph",
+    "name": "TT Freak",
+    "release_date": "2023-05-23",
+    "total_tracks": 7,
+    "popularity": 32,
+    "artists": [
+      {
+        "id": "0z4gvV4rjIZ9wHck67ucSV",
+        "name": "Akon"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4ARTgZcw7MLmjQkZ4zPptP",
+    "name": "Two Vines (Deluxe)",
+    "release_date": "2016-10-28",
+    "total_tracks": 14,
+    "popularity": 62,
+    "artists": [
+      {
+        "id": "67hb7towEyKvt5Z8Bx306c",
+        "name": "Empire Of The Sun"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0S0KGZnfBGSIssfF54WSJh",
+    "name": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+    "release_date": "2019-03-29",
+    "total_tracks": 14,
+    "popularity": 88,
+    "artists": [
+      {
+        "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+        "name": "Billie Eilish"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "7AXmb2bA5LW5DclaDElH4l",
+    "name": "Bol (Original Motion Picture Soundtrack)",
+    "release_date": "2011-06-05",
+    "total_tracks": 8,
+    "popularity": 66,
+    "artists": [
+      {
+        "id": "2oSONSC9zQ4UonDKnLqksx",
+        "name": "Atif Aslam"
+      },
+      {
+        "id": "5THsb9SGB89ZN6mj7ZYVSD",
+        "name": "Sajjad Ali"
+      },
+      {
+        "id": "3dUCaAgzt9Wst7imjK0GQw",
+        "name": "Shoaib Mansoor"
+      },
+      {
+        "id": "3WwO6XosNeUZYmv92dd4Z3",
+        "name": "Baqir Abbas"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5G5s00CN4Kmxz340ED2WL2",
+    "name": "ATTENTION: MILEY LIVE",
+    "release_date": "2022-04-29",
+    "total_tracks": 26,
+    "popularity": 63,
+    "artists": [
+      {
+        "id": "5YGY8feqx7naU7z4HrwZM6",
+        "name": "Miley Cyrus"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "52uWDi3SHff6Wh6xJksYU4",
+    "name": "Sri Sathyanarayana Pooja Phala",
+    "release_date": "2025-05-02",
+    "total_tracks": 10,
+    "popularity": 0,
+    "artists": [
+      {
+        "id": "2ae6PxICSOZHvjqiCcgon8",
+        "name": "S. P. Balasubrahmanyam"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "7dsAlxH9cMgyREm8OLdWWT",
+    "name": "ORANGE BLOOD",
+    "release_date": "2023-11-17",
+    "total_tracks": 7,
+    "popularity": 71,
+    "artists": [
+      {
+        "id": "5t5FqBwTcgKTaWmfEbwQY9",
+        "name": "ENHYPEN"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "7v6FNgLDS8KmaWA1amUtqe",
+    "name": "Tranquility Base Hotel & Casino",
+    "release_date": "2018-05-10",
+    "total_tracks": 11,
+    "popularity": 64,
+    "artists": [
+      {
+        "id": "7Ln80lUS6He07XvHI8qqHH",
+        "name": "Arctic Monkeys"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4kIPlpwEZBK9JaI9pZHe79",
+    "name": "Brahmastra (Original Motion Picture Soundtrack)",
+    "release_date": "2022-10-06",
+    "total_tracks": 9,
+    "popularity": 63,
+    "artists": [
+      {
+        "id": "1wRPtKGflJrBx9BmLsSwlU",
+        "name": "Pritam"
+      },
+      {
+        "id": "2fMqTqiTxUDlmcOEPaQSsx",
+        "name": "Amitabh Bhattacharya"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4DmITPOATTsiWEWtJrPqkk",
+    "name": "Alma Vac\u00eda",
+    "release_date": "2021-08-20",
+    "total_tracks": 7,
+    "popularity": 72,
+    "artists": [
+      {
+        "id": "6PH3FLQAxtqYy46Zv08bpV",
+        "name": "Ivan Cornejo"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6J84szYCnMfzEcvIcfWMFL",
+    "name": "Doo-Wops & Hooligans",
+    "release_date": "2010-05-11",
+    "total_tracks": 12,
+    "popularity": 84,
+    "artists": [
+      {
+        "id": "0du5cEVh5yTK9QJze8zA0C",
+        "name": "Bruno Mars"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6eKdAMXNBlXNtPy7OdBL50",
+    "name": "Harlequin",
+    "release_date": "2024-09-27",
+    "total_tracks": 13,
+    "popularity": 58,
+    "artists": [
+      {
+        "id": "1HY2Jd0NmPuamShAr6KMms",
+        "name": "Lady Gaga"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4MTtBjQEt7i752hISXjKqA",
+    "name": "Las Leyendas Nunca Mueren",
+    "release_date": "2021-11-26",
+    "total_tracks": 16,
+    "popularity": 71,
+    "artists": [
+      {
+        "id": "2R21vXR83lH98kGeO99Y66",
+        "name": "Anuel AA"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "7b3PrkHcWx17AQwlI2M1Uc",
+    "name": "PARA\u00cdSO",
+    "release_date": "2022-11-03",
+    "total_tracks": 14,
+    "popularity": 75,
+    "artists": [
+      {
+        "id": "0Q8NcsJwoCbZOHHW63su5S",
+        "name": "Mora"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6rzMufuu8sLkIizM4q9c7J",
+    "name": "LONG.LIVE.A$AP (Deluxe Version)",
+    "release_date": "2013",
+    "total_tracks": 17,
+    "popularity": 81,
+    "artists": [
+      {
+        "id": "13ubrt8QOOCPljQ2FL1Kca",
+        "name": "A$AP Rocky"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0gxzqV691jZ3TmaHlFZThw",
+    "name": "Devara Part 1 (DIALOGUES) [TAMIL]",
+    "release_date": "2025-02-01",
+    "total_tracks": 18,
+    "popularity": 18,
+    "artists": [
+      {
+        "id": "4zCH9qm4R2DADamUHMCa6O",
+        "name": "Anirudh Ravichander"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "2knHS0Hea81RgGjJXnwLwX",
+    "name": "Shraboner Jolsha",
+    "release_date": "2025-01-29",
+    "total_tracks": 10,
+    "popularity": 12,
+    "artists": [
+      {
+        "id": "7guD32ltIhsA1tHdf7IVe0",
+        "name": "Babul Supriyo"
+      },
+      {
+        "id": "3gBKY0y3dFFVRqicLnVZYz",
+        "name": "Alka Yagnik"
+      },
+      {
+        "id": "5zWKMBKw7KqulFxyz2ULvp",
+        "name": "Ila Arun"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4SAz7HhY1uBvxF6O9k1iyq",
+    "name": "Konvicted (Complete Edition)",
+    "release_date": "2022-03-04",
+    "total_tracks": 27,
+    "popularity": 68,
+    "artists": [
+      {
+        "id": "0z4gvV4rjIZ9wHck67ucSV",
+        "name": "Akon"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6kbiBMllsbGVYMAy8YJKs9",
+    "name": "Walkerverse Pt. I & II",
+    "release_date": "2022-11-25",
+    "total_tracks": 10,
+    "popularity": 60,
+    "artists": [
+      {
+        "id": "7vk5e3vY1uw9plTHJAMwjN",
+        "name": "Alan Walker"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5aGCeUNc2iIMsmIYuOJoeE",
+    "name": "Thug Life (Telugu)",
+    "release_date": "2025-05-24",
+    "total_tracks": 9,
+    "popularity": 44,
+    "artists": [
+      {
+        "id": "1mYsTxnqsietFxj1OgoGbG",
+        "name": "A.R. Rahman"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "27XBXCuJ2Q3t7RlTXFIZu1",
+    "name": "Lights 10",
+    "release_date": "2020-02-26",
+    "total_tracks": 23,
+    "popularity": 47,
+    "artists": [
+      {
+        "id": "0X2BH1fck6amBIoJhDVmmJ",
+        "name": "Ellie Goulding"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3NYYUFxF7SUetGwI6NipnF",
+    "name": "Moment For Moment",
+    "release_date": "2024-09-06",
+    "total_tracks": 7,
+    "popularity": 21,
+    "artists": [
+      {
+        "id": "5sMk0h3nPvjOmjqG4BunmY",
+        "name": "Hume Da Muzika"
+      },
+      {
+        "id": "4YRxDV8wJFPHPTeXepOstw",
+        "name": "Arijit Singh"
+      },
+      {
+        "id": "3OjiKbAuDAWvDTG1JqvQ0c",
+        "name": "Hlumza041"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1f2TRF4pKhSzItUOHZH7fO",
+    "name": "Meri Kahani",
+    "release_date": "2007-01-16",
+    "total_tracks": 12,
+    "popularity": 50,
+    "artists": [
+      {
+        "id": "2oSONSC9zQ4UonDKnLqksx",
+        "name": "Atif Aslam"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1CppHlux7Tg0ZUhWEaUudh",
+    "name": "The Love & Sex Tape",
+    "release_date": "2022-06-10",
+    "total_tracks": 8,
+    "popularity": 61,
+    "artists": [
+      {
+        "id": "1r4hJ1h58CWwUQe3MxPuau",
+        "name": "Maluma"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6LtzdMGhOCh9s6sssWrpuD",
+    "name": "V (Asia Tour Edition)",
+    "release_date": "2015-05-18",
+    "total_tracks": 20,
+    "popularity": 73,
+    "artists": [
+      {
+        "id": "04gDigrS5kc9YWfZHwBETP",
+        "name": "Maroon 5"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5DDVH0WdBqbQg7XriGDFEw",
+    "name": "Stand Alone (10th Anniversary Deluxe Edition)",
+    "release_date": "2024-01-25",
+    "total_tracks": 13,
+    "popularity": 71,
+    "artists": [
+      {
+        "id": "4oUHIQIBe0LHzYfvXNW4QM",
+        "name": "Morgan Wallen"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0G1YnsWxzQoJ2B1QtZLj1e",
+    "name": "LYKE MIIKE",
+    "release_date": "2024-12-24",
+    "total_tracks": 23,
+    "popularity": 69,
+    "artists": [
+      {
+        "id": "7iK8PXO48WeuP03g8YR51W",
+        "name": "Myke Towers"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "01haNCctw4EUPl8xUHVhdl",
+    "name": "Wonder (Holiday Deluxe)",
+    "release_date": "2020-12-05",
+    "total_tracks": 16,
+    "popularity": 44,
+    "artists": [
+      {
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "7BdgUzvgcRFki6Y5DnSmOY",
+    "name": "SEX AND LOVE",
+    "release_date": "2014-01-01",
+    "total_tracks": 11,
+    "popularity": 17,
+    "artists": [
+      {
+        "id": "7qG3b048QCHVRO5Pv1T5lw",
+        "name": "Enrique Iglesias"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "58Rn6sczqcudAs9bryXXBv",
+    "name": "\u5b9a\u3081",
+    "release_date": "2022-10-25",
+    "total_tracks": 9,
+    "popularity": 54,
+    "artists": [
+      {
+        "id": "5t5FqBwTcgKTaWmfEbwQY9",
+        "name": "ENHYPEN"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "7BZF56HOfZ0IkGs0N7jqSB",
+    "name": "Jatt Infected",
+    "release_date": "2020-04-29",
+    "total_tracks": 15,
+    "popularity": 24,
+    "artists": [
+      {
+        "id": "6DARBhWbfcS9E4yJzcliqQ",
+        "name": "Karan Aujla"
+      },
+      {
+        "id": "55kkrbuMkdzPGD7YGA6xrJ",
+        "name": "Gurlez Akhtar"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3QOVlwTbWtGjLZpdSfYHkR",
+    "name": "Madame X (International Deluxe)",
+    "release_date": "2019-06-14",
+    "total_tracks": 18,
+    "popularity": 35,
+    "artists": [
+      {
+        "id": "6tbjWDEIzxoDsBA1FuhfPW",
+        "name": "Madonna"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6BGN5CVd7koJApotl5Bj8u",
+    "name": "3MEN2 KBRN",
+    "release_date": "2023-03-17",
+    "total_tracks": 18,
+    "popularity": 73,
+    "artists": [
+      {
+        "id": "5XJDexmWFLWOkjOEjOVX3e",
+        "name": "Eladio Carrion"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0VV963BfZvQmjzZ14ai7Gu",
+    "name": "Oh The Places You\u2019ll Go",
+    "release_date": "2020-11-27",
+    "total_tracks": 7,
+    "popularity": 60,
+    "artists": [
+      {
+        "id": "4E2rKHVDssGJm2SCDOMMJB",
+        "name": "Doechii"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0DUOcMjmHGVLqFkWqfNC0z",
+    "name": "Mimi (Original Motion Picture Soundtrack)",
+    "release_date": "2021-07-16",
+    "total_tracks": 7,
+    "popularity": 59,
+    "artists": [
+      {
+        "id": "1mYsTxnqsietFxj1OgoGbG",
+        "name": "A.R. Rahman"
+      },
+      {
+        "id": "2fMqTqiTxUDlmcOEPaQSsx",
+        "name": "Amitabh Bhattacharya"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "07w0rG5TETcyihsEIZR3qG",
+    "name": "SOS",
+    "release_date": "2022-12-09",
+    "total_tracks": 23,
+    "popularity": 89,
+    "artists": [
+      {
+        "id": "7tYKF4w9nC0nq9CsPZTHyP",
+        "name": "SZA"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4phgwA30YOM1BAhJEm96Al",
+    "name": "Ice On The Dune",
+    "release_date": "2013-01-01",
+    "total_tracks": 12,
+    "popularity": 67,
+    "artists": [
+      {
+        "id": "67hb7towEyKvt5Z8Bx306c",
+        "name": "Empire Of The Sun"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "78bpIziExqiI9qztvNFlQu",
+    "name": "AM",
+    "release_date": "2013-09-09",
+    "total_tracks": 12,
+    "popularity": 92,
+    "artists": [
+      {
+        "id": "7Ln80lUS6He07XvHI8qqHH",
+        "name": "Arctic Monkeys"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4ocB97o3gdrIYyIwYSSwVy",
+    "name": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE [SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE (METROVERSE INSTRUMENTAL EDITION)]",
+    "release_date": "2023-08-04",
+    "total_tracks": 23,
+    "popularity": 57,
+    "artists": [
+      {
+        "id": "0iEtIxbK0KxaSlF7G42ZOp",
+        "name": "Metro Boomin"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3kjHLu1pL7tdY88GFwEkl6",
+    "name": "The Death of Slim Shady (Coup De Gr\u00e2ce)",
+    "release_date": "2024-07-12",
+    "total_tracks": 19,
+    "popularity": 78,
+    "artists": [
+      {
+        "id": "7dGJo4pcD2V6oG8kP0tJRR",
+        "name": "Eminem"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4iqbFIdGOTzXeDtt9owjQn",
+    "name": "WE DON'T TRUST YOU",
+    "release_date": "2024-03-22",
+    "total_tracks": 17,
+    "popularity": 84,
+    "artists": [
+      {
+        "id": "1RyvyyTE3xzB2ZywiAwp0i",
+        "name": "Future"
+      },
+      {
+        "id": "0iEtIxbK0KxaSlF7G42ZOp",
+        "name": "Metro Boomin"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0os2iPNHyo2yBFi4A8RKXB",
+    "name": "Arijit Singh Top Sad Love Hits",
+    "release_date": "2024-04-26",
+    "total_tracks": 17,
+    "popularity": 33,
+    "artists": [
+      {
+        "id": "4YRxDV8wJFPHPTeXepOstw",
+        "name": "Arijit Singh"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1OARrXe5sB0gyy3MhQ8h92",
+    "name": "Live At SoFi Stadium",
+    "release_date": "2023-03-03",
+    "total_tracks": 31,
+    "popularity": 61,
+    "artists": [
+      {
+        "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+        "name": "The Weeknd"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3tjIKRAPBy5Qu4z8F5HmBz",
+    "name": "Top Gun: Maverick (Music From The Motion Picture)",
+    "release_date": "2022-05-27",
+    "total_tracks": 12,
+    "popularity": 66,
+    "artists": [
+      {
+        "id": "1HY2Jd0NmPuamShAr6KMms",
+        "name": "Lady Gaga"
+      },
+      {
+        "id": "5Pwc4xIPtQLFEnJriah9YJ",
+        "name": "OneRepublic"
+      },
+      {
+        "id": "0YC192cP3KPCRWx8zr8MfZ",
+        "name": "Hans Zimmer"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4dgK8VU5soqJgsNUJTd6W7",
+    "name": "Thug Life (Hindi)",
+    "release_date": "2025-05-24",
+    "total_tracks": 9,
+    "popularity": 41,
+    "artists": [
+      {
+        "id": "1mYsTxnqsietFxj1OgoGbG",
+        "name": "A.R. Rahman"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "18E4NwdsjXkAruea9eqUzF",
+    "name": "Ami Tor Holam",
+    "release_date": "2024-10-22",
+    "total_tracks": 8,
+    "popularity": 3,
+    "artists": [
+      {
+        "id": "3gBKY0y3dFFVRqicLnVZYz",
+        "name": "Alka Yagnik"
+      },
+      {
+        "id": "28UUdgiEau19ci20MVtTGl",
+        "name": "Nirmalya"
+      },
+      {
+        "id": "2Vr8ZuVqP4Av7TzvYXomUz",
+        "name": "Kumar Sunny"
+      },
+      {
+        "id": "0qoTMvzADe3J2f81Ctd4Vj",
+        "name": "Sandeep Shukla"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3KrkQ77DF9OUB0aOzKFYOF",
+    "name": "World Of Walker",
+    "release_date": "2021-11-26",
+    "total_tracks": 15,
+    "popularity": 72,
+    "artists": [
+      {
+        "id": "7vk5e3vY1uw9plTHJAMwjN",
+        "name": "Alan Walker"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6seUERIBHA7qbR5ReDm66x",
+    "name": "Marry Me (Original Motion Picture Soundtrack)",
+    "release_date": "2022-02-04",
+    "total_tracks": 13,
+    "popularity": 52,
+    "artists": [
+      {
+        "id": "2DlGxzQSjYe5N6G9nkYghR",
+        "name": "Jennifer Lopez"
+      },
+      {
+        "id": "1r4hJ1h58CWwUQe3MxPuau",
+        "name": "Maluma"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0QLDQG7Jx78rEUDW03IhHC",
+    "name": "MICRODOSIS",
+    "release_date": "2022-04-01",
+    "total_tracks": 15,
+    "popularity": 79,
+    "artists": [
+      {
+        "id": "0Q8NcsJwoCbZOHHW63su5S",
+        "name": "Mora"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5eXvrU5hvCyxZmOdVDVRSc",
+    "name": "Coven Music Session, Vol. 1",
+    "release_date": "2019-05-15",
+    "total_tracks": 9,
+    "popularity": 33,
+    "artists": [
+      {
+        "id": "4E2rKHVDssGJm2SCDOMMJB",
+        "name": "Doechii"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0LLA5YL3g2UReWlP7nWqGh",
+    "name": "Night Visions (Expanded Edition / Super Deluxe)",
+    "release_date": "2022-09-09",
+    "total_tracks": 54,
+    "popularity": 57,
+    "artists": [
+      {
+        "id": "53XhwfbYqKCa1cC15pYq2q",
+        "name": "Imagine Dragons"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "28adqly9V7wm5DFr7hlqtK",
+    "name": "Los Dioses",
+    "release_date": "2021-01-22",
+    "total_tracks": 12,
+    "popularity": 62,
+    "artists": [
+      {
+        "id": "2R21vXR83lH98kGeO99Y66",
+        "name": "Anuel AA"
+      },
+      {
+        "id": "1i8SpTcr7yvPOmcqrbnVXY",
+        "name": "Ozuna"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5JNhQFH8HMKQWP4SITzdoc",
+    "name": "Euphoria",
+    "release_date": "2010",
+    "total_tracks": 18,
+    "popularity": 76,
+    "artists": [
+      {
+        "id": "7qG3b048QCHVRO5Pv1T5lw",
+        "name": "Enrique Iglesias"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5xD1PSd5c5APDM0SdkkqnH",
+    "name": "+-=\u00f7\u00d7 (Tour Collection)",
+    "release_date": "2024-09-27",
+    "total_tracks": 24,
+    "popularity": 68,
+    "artists": [
+      {
+        "id": "6eUKZXaKkcviH0Ku9w2n3V",
+        "name": "Ed Sheeran"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "2c6s84YTwR9cfncPmB9fNW",
+    "name": "? (Deluxe)",
+    "release_date": "2019-09-06",
+    "total_tracks": 53,
+    "popularity": 66,
+    "artists": [
+      {
+        "id": "15UsOTVnJzReFVN1VCnxy4",
+        "name": "XXXTENTACION"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6i7mF7whyRJuLJ4ogbH2wh",
+    "name": "One Thing At A Time",
+    "release_date": "2023-03-03",
+    "total_tracks": 36,
+    "popularity": 88,
+    "artists": [
+      {
+        "id": "4oUHIQIBe0LHzYfvXNW4QM",
+        "name": "Morgan Wallen"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4l6EPpP9hjQrLb8qNB9eC5",
+    "name": "LIVE.LOVE.A$AP",
+    "release_date": "2011-10-31",
+    "total_tracks": 15,
+    "popularity": 74,
+    "artists": [
+      {
+        "id": "13ubrt8QOOCPljQ2FL1Kca",
+        "name": "A$AP Rocky"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5t8SXzwFRey9pAJqTbL1RL",
+    "name": "Devara Part 1 (DIALOGUES) [KANNADA]",
+    "release_date": "2025-02-01",
+    "total_tracks": 18,
+    "popularity": 17,
+    "artists": [
+      {
+        "id": "4zCH9qm4R2DADamUHMCa6O",
+        "name": "Anirudh Ravichander"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3Lp4JKk2ZgNkybMRS3eZR5",
+    "name": "Wonder",
+    "release_date": "2020-12-04",
+    "total_tracks": 14,
+    "popularity": 67,
+    "artists": [
+      {
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1GoqBRUPZzBKvMKZxSQ1mp",
+    "name": "Walking On A Dream (Special Edition)",
+    "release_date": "2009-01-01",
+    "total_tracks": 22,
+    "popularity": 59,
+    "artists": [
+      {
+        "id": "67hb7towEyKvt5Z8Bx306c",
+        "name": "Empire Of The Sun"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5BRhg6NSEZOj0BR6Iz56fR",
+    "name": "Plastic Hearts",
+    "release_date": "2020-11-27",
+    "total_tracks": 15,
+    "popularity": 79,
+    "artists": [
+      {
+        "id": "5YGY8feqx7naU7z4HrwZM6",
+        "name": "Miley Cyrus"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "2ym2jcqckXqWeTDoxz3Kst",
+    "name": "Suck It and See",
+    "release_date": "2011-06-06",
+    "total_tracks": 12,
+    "popularity": 68,
+    "artists": [
+      {
+        "id": "7Ln80lUS6He07XvHI8qqHH",
+        "name": "Arctic Monkeys"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "2xqTa2dCR54yYHEcttiXyD",
+    "name": "eternal sunshine deluxe: brighter days ahead (a cappella version)",
+    "release_date": "2025-03-27",
+    "total_tracks": 38,
+    "popularity": 75,
+    "artists": [
+      {
+        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+        "name": "Ariana Grande"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3O52AkvWUCF7MfkfLfnobb",
+    "name": "The Lockdown Sessions",
+    "release_date": "2021-10-22",
+    "total_tracks": 18,
+    "popularity": 59,
+    "artists": [
+      {
+        "id": "3PhoLpVuITZKcymswpck5b",
+        "name": "Elton John"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1G2YEQPXaOj1JZwa3ZiGe8",
+    "name": "Madame X (Deluxe)",
+    "release_date": "2019-06-14",
+    "total_tracks": 15,
+    "popularity": 52,
+    "artists": [
+      {
+        "id": "6tbjWDEIzxoDsBA1FuhfPW",
+        "name": "Madonna"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6ijGiBcBfUwkoyHn5VUHU2",
+    "name": "Overexposed Track By Track",
+    "release_date": "2012-01-01",
+    "total_tracks": 33,
+    "popularity": 81,
+    "artists": [
+      {
+        "id": "04gDigrS5kc9YWfZHwBETP",
+        "name": "Maroon 5"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6hBQkPnq5u1BwZncSEDEgs",
+    "name": "Love For Sale (Deluxe)",
+    "release_date": "2021-10-01",
+    "total_tracks": 12,
+    "popularity": 48,
+    "artists": [
+      {
+        "id": "2lolQgalUvZDfp5vvVtTYV",
+        "name": "Tony Bennett"
+      },
+      {
+        "id": "1HY2Jd0NmPuamShAr6KMms",
+        "name": "Lady Gaga"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3lsdB3dY4odywNI42KV6D9",
+    "name": "SEN2 KBRN VOL. 2",
+    "release_date": "2022-11-18",
+    "total_tracks": 10,
+    "popularity": 67,
+    "artists": [
+      {
+        "id": "5XJDexmWFLWOkjOEjOVX3e",
+        "name": "Eladio Carrion"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "20Ol6zZ0nLlc5EGTH1zA0j",
+    "name": "Delirium (Deluxe)",
+    "release_date": "2015-11-06",
+    "total_tracks": 22,
+    "popularity": 72,
+    "artists": [
+      {
+        "id": "0X2BH1fck6amBIoJhDVmmJ",
+        "name": "Ellie Goulding"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "7vZC8PTQUCcw3687OxqY98",
+    "name": "#7DJ (7 D\u00edas En Jamaica)",
+    "release_date": "2021-01-28",
+    "total_tracks": 7,
+    "popularity": 51,
+    "artists": [
+      {
+        "id": "1r4hJ1h58CWwUQe3MxPuau",
+        "name": "Maluma"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3pkIK8SI5mcUUjb9jNjx4H",
+    "name": "LA PANTERA NEGRA (DELUXE)",
+    "release_date": "2024-10-17",
+    "total_tracks": 30,
+    "popularity": 71,
+    "artists": [
+      {
+        "id": "7iK8PXO48WeuP03g8YR51W",
+        "name": "Myke Towers"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3nzuGtN3nXARvvecier4K0",
+    "name": "Different World",
+    "release_date": "2018-12-14",
+    "total_tracks": 15,
+    "popularity": 79,
+    "artists": [
+      {
+        "id": "7vk5e3vY1uw9plTHJAMwjN",
+        "name": "Alan Walker"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6ViO9Wx6dWzeUq6DmGTaHl",
+    "name": "I NEVER LIKED YOU",
+    "release_date": "2022-05-02",
+    "total_tracks": 22,
+    "popularity": 66,
+    "artists": [
+      {
+        "id": "1RyvyyTE3xzB2ZywiAwp0i",
+        "name": "Future"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "7JtT7OyWM8BnIS5FXXPMKg",
+    "name": "Emmanuel",
+    "release_date": "2020-05-29",
+    "total_tracks": 22,
+    "popularity": 76,
+    "artists": [
+      {
+        "id": "2R21vXR83lH98kGeO99Y66",
+        "name": "Anuel AA"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1Rbika7sn7sLt2SGC7IxXf",
+    "name": "Ain\u2019t No Peace",
+    "release_date": "2020-07-31",
+    "total_tracks": 7,
+    "popularity": 34,
+    "artists": [
+      {
+        "id": "0z4gvV4rjIZ9wHck67ucSV",
+        "name": "Akon"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5EUgcfO5OWxnniHR3QYFcK",
+    "name": "The Marshall Mathers LP2 (Expanded Edition)",
+    "release_date": "2023-11-03",
+    "total_tracks": 27,
+    "popularity": 54,
+    "artists": [
+      {
+        "id": "7dGJo4pcD2V6oG8kP0tJRR",
+        "name": "Eminem"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5r8T7S23cVDSd7a045h4N5",
+    "name": "Primer Dia de Clases",
+    "release_date": "2021-02-05",
+    "total_tracks": 16,
+    "popularity": 77,
+    "artists": [
+      {
+        "id": "0Q8NcsJwoCbZOHHW63su5S",
+        "name": "Mora"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6FKP2O0oOvZlDkF0gyTjiJ",
+    "name": "Ctrl (Deluxe)",
+    "release_date": "2022-06-09",
+    "total_tracks": 21,
+    "popularity": 72,
+    "artists": [
+      {
+        "id": "7tYKF4w9nC0nq9CsPZTHyP",
+        "name": "SZA"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0rqRGFgE4o8kf6VM18jakx",
+    "name": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE / DELUXE EDITION)",
+    "release_date": "2023-06-05",
+    "total_tracks": 18,
+    "popularity": 61,
+    "artists": [
+      {
+        "id": "0iEtIxbK0KxaSlF7G42ZOp",
+        "name": "Metro Boomin"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0xzScN8P3hQAz3BT3YYX5w",
+    "name": "Shawn Mendes (Deluxe)",
+    "release_date": "2019-06-19",
+    "total_tracks": 16,
+    "popularity": 75,
+    "artists": [
+      {
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4JaYe7HIddzNaF3rUgJzHI",
+    "name": "Sauce Boyz 2",
+    "release_date": "2021-12-02",
+    "total_tracks": 22,
+    "popularity": 75,
+    "artists": [
+      {
+        "id": "5XJDexmWFLWOkjOEjOVX3e",
+        "name": "Eladio Carrion"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "7BuPO7yqJYGScpH2Qq6ZSu",
+    "name": "KonKrete Jungle",
+    "release_date": "2014-02-04",
+    "total_tracks": 12,
+    "popularity": 35,
+    "artists": [
+      {
+        "id": "0z4gvV4rjIZ9wHck67ucSV",
+        "name": "Akon"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "45wbw92Z6V8G8iPKFzSEPN",
+    "name": "SHE IS COMING",
+    "release_date": "2019-05-31",
+    "total_tracks": 7,
+    "popularity": 64,
+    "artists": [
+      {
+        "id": "5YGY8feqx7naU7z4HrwZM6",
+        "name": "Miley Cyrus"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0tP1sMWKGCE0tRoo4AiR4x",
+    "name": "Devara Part 1 (DIALOGUE) [HINDI]",
+    "release_date": "2024-12-27",
+    "total_tracks": 18,
+    "popularity": 17,
+    "artists": [
+      {
+        "id": "4zCH9qm4R2DADamUHMCa6O",
+        "name": "Anirudh Ravichander"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4hBA7VgOSxsWOf2N9dJv2X",
+    "name": "Rebel Heart Tour (Live)",
+    "release_date": "2017-09-15",
+    "total_tracks": 22,
+    "popularity": 39,
+    "artists": [
+      {
+        "id": "6tbjWDEIzxoDsBA1FuhfPW",
+        "name": "Madonna"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1upLfaShcnjVjey0FdY7aO",
+    "name": "x (10th Anniversary Edition)",
+    "release_date": "2024-06-21",
+    "total_tracks": 21,
+    "popularity": 64,
+    "artists": [
+      {
+        "id": "6eUKZXaKkcviH0Ku9w2n3V",
+        "name": "Ed Sheeran"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "12INlMsFtBjyehNnawBv36",
+    "name": "Dawn FM (Alternate World)",
+    "release_date": "2022-01-07",
+    "total_tracks": 24,
+    "popularity": 63,
+    "artists": [
+      {
+        "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+        "name": "The Weeknd"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5AzpxFD5l5i5Iy0DiVSDj6",
+    "name": "Live From Moscow (Live From Moscow / 1979)",
+    "release_date": "2020-01-24",
+    "total_tracks": 16,
+    "popularity": 31,
+    "artists": [
+      {
+        "id": "3PhoLpVuITZKcymswpck5b",
+        "name": "Elton John"
+      },
+      {
+        "id": "7cKlb63iLFs9kvJfa8ZFhi",
+        "name": "Ray Cooper"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "2Dw4fYqDQnxsgoXDdMbqh3",
+    "name": "Halcyon Days",
+    "release_date": "2014-01-01",
+    "total_tracks": 22,
+    "popularity": 58,
+    "artists": [
+      {
+        "id": "0X2BH1fck6amBIoJhDVmmJ",
+        "name": "Ellie Goulding"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4WgEUAbA3elrKKvTh1jjM3",
+    "name": "I NEVER LIKED YOU (Instrumental)",
+    "release_date": "2022-04-26",
+    "total_tracks": 22,
+    "popularity": 36,
+    "artists": [
+      {
+        "id": "1RyvyyTE3xzB2ZywiAwp0i",
+        "name": "Future"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5pQwQRnQOuKrbVUVnGMEN4",
+    "name": "Real Hasta la Muerte",
+    "release_date": "2018-07-17",
+    "total_tracks": 12,
+    "popularity": 77,
+    "artists": [
+      {
+        "id": "2R21vXR83lH98kGeO99Y66",
+        "name": "Anuel AA"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1bwbZJ6khPJyVpOaqgKsoZ",
+    "name": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE)",
+    "release_date": "2023-06-02",
+    "total_tracks": 13,
+    "popularity": 78,
+    "artists": [
+      {
+        "id": "0iEtIxbK0KxaSlF7G42ZOp",
+        "name": "Metro Boomin"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "0yURloAyqmXCjQ1rmX0ltA",
+    "name": "Dear Evan Hansen (Original Motion Picture Soundtrack)",
+    "release_date": "2021-09-24",
+    "total_tracks": 16,
+    "popularity": 50,
+    "artists": [
+      {
+        "id": "6qGkLCMQkNGOJ079iEcC5k",
+        "name": "Ben Platt"
+      },
+      {
+        "id": "7tYKF4w9nC0nq9CsPZTHyP",
+        "name": "SZA"
+      },
+      {
+        "id": "2wY79sveU1sp5g7SokKOiI",
+        "name": "Sam Smith"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6LBPsXUjVuNe9ywLY4xgvX",
+    "name": "Dangerous: The Double Album (Bonus)",
+    "release_date": "2021-01-29",
+    "total_tracks": 33,
+    "popularity": 68,
+    "artists": [
+      {
+        "id": "4oUHIQIBe0LHzYfvXNW4QM",
+        "name": "Morgan Wallen"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3aTuW4BtsyyyyQa9LKqj8n",
+    "name": "Curtain Call 2",
+    "release_date": "2022-08-05",
+    "total_tracks": 35,
+    "popularity": 62,
+    "artists": [
+      {
+        "id": "7dGJo4pcD2V6oG8kP0tJRR",
+        "name": "Eminem"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6XYL7jVgFaxD1X7F8IMO2b",
+    "name": "Overexposed (Deluxe)",
+    "release_date": "2012-01-01",
+    "total_tracks": 15,
+    "popularity": 50,
+    "artists": [
+      {
+        "id": "04gDigrS5kc9YWfZHwBETP",
+        "name": "Maroon 5"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6NmYJszy5BaEm1WF4tJL7Z",
+    "name": "LA PANTERA NEGRA",
+    "release_date": "2024-08-22",
+    "total_tracks": 20,
+    "popularity": 76,
+    "artists": [
+      {
+        "id": "7iK8PXO48WeuP03g8YR51W",
+        "name": "Myke Towers"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3JUrJP460nFIqwjxM19slT",
+    "name": "Wicked: The Soundtrack",
+    "release_date": "2024-11-22",
+    "total_tracks": 12,
+    "popularity": 79,
+    "artists": [
+      {
+        "id": "3eLZo1bSslvsu0zNhtmMM4",
+        "name": "Wicked Movie Cast"
+      },
+      {
+        "id": "46UMQ0cW8ToR8egkBRwAxZ",
+        "name": "Cynthia Erivo"
+      },
+      {
+        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+        "name": "Ariana Grande"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5bLE2kmkZWlzAYeb6To6LA",
+    "name": "Autumn Variations (Fan Living Room Sessions)",
+    "release_date": "2023-10-02",
+    "total_tracks": 28,
+    "popularity": 46,
+    "artists": [
+      {
+        "id": "6eUKZXaKkcviH0Ku9w2n3V",
+        "name": "Ed Sheeran"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6yiXkzHvC0OTmhfDQOEWtS",
+    "name": "Mercury - Acts 1 & 2",
+    "release_date": "2022-07-01",
+    "total_tracks": 32,
+    "popularity": 82,
+    "artists": [
+      {
+        "id": "53XhwfbYqKCa1cC15pYq2q",
+        "name": "Imagine Dragons"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "2nLOHgzXzwFEpl62zAgCEC",
+    "name": "Dawn FM",
+    "release_date": "2022-01-06",
+    "total_tracks": 16,
+    "popularity": 81,
+    "artists": [
+      {
+        "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+        "name": "The Weeknd"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "4EeDFhIVRxOg4dx7ozSNXa",
+    "name": "XXXTENTACION Presents: Members Only, Vol. 4",
+    "release_date": "2019-01-23",
+    "total_tracks": 24,
+    "popularity": 60,
+    "artists": [
+      {
+        "id": "15UsOTVnJzReFVN1VCnxy4",
+        "name": "XXXTENTACION"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3pLdWdkj83EYfDN6H2N8MR",
+    "name": "Black Panther The Album Music From And Inspired By",
+    "release_date": "2018-02-09",
+    "total_tracks": 14,
+    "popularity": 84,
+    "artists": [
+      {
+        "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+        "name": "Kendrick Lamar"
+      },
+      {
+        "id": "7tYKF4w9nC0nq9CsPZTHyP",
+        "name": "SZA"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "3L2iweH45rVdTBPldbY6dp",
+    "name": "eternal sunshine (slightly deluxe and also live)",
+    "release_date": "2024-10-01",
+    "total_tracks": 24,
+    "popularity": 60,
+    "artists": [
+      {
+        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+        "name": "Ariana Grande"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1ZVJTCW5rxpHKNgsNL91J2",
+    "name": "LVEU: VIVE LA TUYA...NO LA MIA",
+    "release_date": "2023-09-18",
+    "total_tracks": 23,
+    "popularity": 72,
+    "artists": [
+      {
+        "id": "7iK8PXO48WeuP03g8YR51W",
+        "name": "Myke Towers"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "6JlCkqkqobGirPsaleJpFr",
+    "name": "Dangerous: The Double Album",
+    "release_date": "2021-01-08",
+    "total_tracks": 30,
+    "popularity": 86,
+    "artists": [
+      {
+        "id": "4oUHIQIBe0LHzYfvXNW4QM",
+        "name": "Morgan Wallen"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "5LXOgcszGvUkYzYL4v6wYg",
+    "name": "Autumn Variations",
+    "release_date": "2023-09-29",
+    "total_tracks": 14,
+    "popularity": 59,
+    "artists": [
+      {
+        "id": "6eUKZXaKkcviH0Ku9w2n3V",
+        "name": "Ed Sheeran"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  },
+  {
+    "id": "1qsQOC4Jn0fnaUZLAbs4dz",
+    "name": "SKINS",
+    "release_date": "2018-12-07",
+    "total_tracks": 10,
+    "popularity": 74,
+    "artists": [
+      {
+        "id": "15UsOTVnJzReFVN1VCnxy4",
+        "name": "XXXTENTACION"
+      }
+    ],
+    "extraction_datetime": "2025-06-13T11:35:16.377150",
+    "source": "Spotify API v1",
+    "extractor": "spotipy",
+    "data_version": "1.0",
+    "timezone": "IST"
+  }
+]
