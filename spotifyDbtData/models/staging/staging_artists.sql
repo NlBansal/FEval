@@ -12,8 +12,8 @@ cleaned as (
     select
         id,
         name,
-        popularity::int,
         genres,
+        popularity::int,
         extraction_datetime,
         {{ split_timestamp('extraction_datetime', 'extract') }},
         source,

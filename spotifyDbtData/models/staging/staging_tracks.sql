@@ -12,8 +12,10 @@ cleaned as (
     select
         id,
         name,
-        album,
-        string_to_array(artist, ', ') as artists_array,
+        string_to_array(artist_names, ', ') as artists_array,
+        string_to_array(artist_ids, ', ') as artists_ids_array,
+        album_name,
+        album_id,
         duration_ms::int,
         explicit::boolean,
         popularity::int,

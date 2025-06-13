@@ -15,11 +15,14 @@ cleaned as (
         release_date,
         total_tracks::int,
         popularity::int,
-        string_to_array(artists, ', ') as artists_array,
-        string_to_array(tracks, ', ') as tracks_array,
+        string_to_array(artist_names, ', ') as artists_array,
+        string_to_array(artist_ids, ', ') as artists_ids_array,
+        string_to_array(track_names, ', ') as tracks_array,
+        string_to_array(track_ids, ', ') as tracks_ids_array,
         extraction_datetime,
         {{ split_timestamp('extraction_datetime', 'extract') }},
         source,
+        extractor,
         data_version,
         timezone
     from source
