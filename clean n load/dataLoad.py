@@ -107,7 +107,7 @@ def upload_df(df, table_name):
         if_exists='replace',
         index=False
     )
-    print(f"✅ Uploaded: {table_name}")
+    print(f"Uploaded: {table_name}")
 
 
 def process_albums(path):
