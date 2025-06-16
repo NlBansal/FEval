@@ -25,6 +25,8 @@ SELECT
     {% endif %}
 
     id AS album_id,
-    name AS album_name
-
+    name AS album_name,
+    release_date AS album_release_date,
+    total_tracks AS album_total_tracks,
+    popularity AS album_popularity
 FROM {{ ref('staging_albums') }}

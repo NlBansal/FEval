@@ -17,12 +17,14 @@ with source as (
 
 distinct_genres as (
     select distinct
-        trim(genre) as genre
+        trim(genre) as genre,
+        artist_id
     from source
     where genre is not null and trim(genre) <> ''
 )
 
 select
     {{ dbt_utils.generate_surrogate_key(['genre']) }} as genre_id,
+    artist_id,
     genre
 from distinct_genres

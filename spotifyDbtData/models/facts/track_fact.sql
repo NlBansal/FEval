@@ -1,4 +1,5 @@
-{{ config(materialized = 'incremental',
+{{ config(
+    materialized = 'incremental',
     unique_key = 'track_id',
     incremental_strategy = 'merge'
 ) }}
@@ -40,6 +41,13 @@ artists as (
         artist_id,
         artist_name
     from {{ ref('dim_artists') }}
+),
+
+genres as (
+    select
+        artist_id,
+        genre
+    from {{ ref('dim_genre') }}
 )
 
 select
@@ -52,6 +60,7 @@ select
     a.album_popularity,
     ta.artist_id,
     ar.artist_name,
+    g.genre,
     t.duration_ms,
     t.explicit,
     t.track_popularity,
@@ -62,3 +71,4 @@ from tracks t
 left join albums a on t.album_id = a.album_id
 left join track_artist ta on t.track_id = ta.track_id
 left join artists ar on ta.artist_id = ar.artist_id
+left join genres g on ta.artist_id = g.artist_id
