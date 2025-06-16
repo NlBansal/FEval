@@ -12,7 +12,7 @@
     unique_key = 'track_sk',
     incremental_strategy = 'merge',
     indexes = [
-        {"columns": ["track_id"], "name": "idx_track_id"}
+        {"columns": ["track_id"]}
     ]
 ) }}
 

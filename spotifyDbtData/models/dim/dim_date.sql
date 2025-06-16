@@ -2,7 +2,7 @@
             unique_key = 'date_id', 
             incremental_strategy = 'merge',
             indexes = [
-                {"columns": ["date_id"], "name": "idx_date_actual"}
+                {"columns": ["date_id"]}
             ]
 ) }}
 

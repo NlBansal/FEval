@@ -3,7 +3,7 @@
     unique_key = 'genre_id',
     incremental_strategy = 'merge',
     indexes = [
-        {"columns": ["genre_id"], "name": "idx_genre_name"}
+        {"columns": ["genre_id"]}
     ]
 ) }}
 

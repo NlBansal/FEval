@@ -13,7 +13,7 @@
     unique_key = 'album_sk',
     incremental_strategy = 'merge',
     indexes = [
-      {"columns": ["album_id"], "name": "idx_album_id"}
+      {"columns": ["album_id"]}
     ]
 ) }}
 
