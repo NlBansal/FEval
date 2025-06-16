@@ -1,4 +1,7 @@
-{{ config(materialized = 'table') }}
+{{ config(materialized = 'incremental',
+    unique_key = 'album_id',
+    incremental_strategy = 'merge'
+) }}
 
 select distinct
     id as album_id,

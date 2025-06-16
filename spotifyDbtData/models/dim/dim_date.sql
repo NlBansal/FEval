@@ -1,4 +1,7 @@
-{{ config(materialized = 'table') }}
+{{ config(  materialized = 'incremental',
+            unique_key = 'date_id', 
+            incremental_strategy = 'merge'
+) }}
 
 with normalized_dates as (
     select

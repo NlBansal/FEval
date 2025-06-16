@@ -1,4 +1,8 @@
-{{ config(materialized = 'table') }}
+{{ config(
+    materialized = 'incremental',
+    unique_key = 'track_id',
+    incremental_strategy = 'merge'
+) }}
 
 select distinct
     id as track_id,

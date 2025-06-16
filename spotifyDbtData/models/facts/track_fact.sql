@@ -1,4 +1,7 @@
-{{ config(materialized = 'table') }}
+{{ config(materialized = 'incremental',
+    unique_key = 'track_id',
+    incremental_strategy = 'merge'
+) }}
 
 with tracks as (
     select
