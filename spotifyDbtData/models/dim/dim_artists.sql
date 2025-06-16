@@ -10,8 +10,11 @@
 
 {{ config(
     materialized = 'incremental',
-    unique_key = 'artist_id',
-    incremental_strategy = 'merge'
+    unique_key = 'artist_sk,',
+    incremental_strategy = 'merge',
+    indexes = [
+        {"columns": ["artist_id"], "name": "idx_artist_id"}
+    ]
 ) }}
 
 SELECT

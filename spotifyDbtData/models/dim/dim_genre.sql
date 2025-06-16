@@ -1,7 +1,10 @@
 {{ config(
     materialized = 'incremental',
     unique_key = 'genre_id',
-    incremental_strategy = 'merge'
+    incremental_strategy = 'merge',
+    indexes = [
+        {"columns": ["genre_id"], "name": "idx_genre_name"}
+    ]
 ) }}
 
 with source as (

@@ -9,8 +9,11 @@
 {% do run_query(sequence_query) %}
 {{ config(
     materialized = 'incremental',
-    unique_key = 'track_id',
-    incremental_strategy = 'merge'
+    unique_key = 'track_sk',
+    incremental_strategy = 'merge',
+    indexes = [
+        {"columns": ["track_id"], "name": "idx_track_id"}
+    ]
 ) }}
 
 select 

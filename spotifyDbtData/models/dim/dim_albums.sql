@@ -1,5 +1,3 @@
--- models/dim/dim_albums.sql
-
 {% set sequence_name = 'album_sk_seq' %}
 {% set schema_name = target.schema %}
 {% set database_name = target.database %}
@@ -12,13 +10,16 @@
 
 {{ config(
     materialized = 'incremental',
-    unique_key = 'album_id',
-    incremental_strategy = 'merge'
+    unique_key = 'album_sk',
+    incremental_strategy = 'merge',
+    indexes = [
+      {"columns": ["album_id"], "name": "idx_album_id"}
+    ]
 ) }}
 
 SELECT
     {% if is_incremental() %}
-        album_sk,  -- preserve existing surrogate key
+        album_sk,  
     {% else %}
         NEXTVAL('{{ database_name }}.{{ schema_name }}.{{ sequence_name }}') AS album_sk,
     {% endif %}
