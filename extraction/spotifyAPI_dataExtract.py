@@ -3,12 +3,12 @@ import json
 import asyncio
 import aiohttp
 import random
+import logging
 import datetime
 from dotenv import load_dotenv
 from spotipy.oauth2 import SpotifyClientCredentials
 from spotipy import Spotify
 from aiohttp import ClientSession, ClientTimeout, TCPConnector
-
 
 load_dotenv()
 CLIENT_ID = os.getenv("SPOTIPY_CLIENT_ID")
@@ -17,10 +17,7 @@ CLIENT_SECRET = os.getenv("SPOTIPY_CLIENT_SECRET")
 sp_sync = Spotify(auth_manager=SpotifyClientCredentials(
     client_id=CLIENT_ID, client_secret=CLIENT_SECRET))
 
-
 ARTISTS, ALBUMS, TRACKS = [], [], []
-
-# Semaphore
 semaphore = asyncio.Semaphore(4)
 
 
@@ -44,17 +41,23 @@ async def fetch(session, url, headers, max_retries=3):
                     if response.status == 429:
                         retry_after = int(
                             response.headers.get("Retry-After", "1"))
-                        print(f"[429] Retrying after {retry_after}s: {url}")
+                        logging.warning(
+                            f"[429] Rate limited. Retrying after {retry_after}s | Attempt {attempt + 1} | URL: {url}")
                         await asyncio.sleep(retry_after)
                         continue
                     elif response.status != 200:
-                        print(f"[{response.status}] Failed: {url}")
+                        logging.error(
+                            f"[{response.status}] Request failed | Attempt {attempt + 1} | URL: {url}")
                         return None
                     return await response.json()
             except aiohttp.ClientError as e:
-                print(f"[ClientError] {e} on {url}")
+                logging.error(
+                    f"[ClientError] {str(e)} | Attempt {attempt + 1} | URL: {url}")
             except Exception as e:
-                print(f"[Unexpected Error] {e} on {url}")
+                logging.exception(
+                    f"[Unexpected Error] {str(e)} | Attempt {attempt + 1} | URL: {url}")
+    logging.critical(
+        f"[FAILED] All {max_retries} attempts failed | URL: {url}")
     return None
 
 
@@ -110,14 +113,7 @@ async def process_artist(session, artist_id, headers, metadata):
                 continue
 
             await asyncio.sleep(random.uniform(0.2, 0.5))
-            ALBUMS.append({**{
-                "id": full_album["id"],
-                "name": full_album["name"],
-                "release_date": full_album["release_date"],
-                "total_tracks": full_album["total_tracks"],
-                "popularity": full_album["popularity"],
-                "artists": [{"id": a["id"], "name": a["name"]} for a in full_album["artists"]]
-            }, **metadata})
+            album_tracks = []
 
             for track in full_album.get("tracks", {}).get("items", []):
                 full_track = await fetch_track(session, track["id"], headers)
@@ -135,10 +131,25 @@ async def process_artist(session, artist_id, headers, metadata):
                     "popularity": full_track["popularity"]
                 }, **metadata})
 
+                album_tracks.append({
+                    "id": full_track["id"],
+                    "name": full_track["name"]
+                })
+
+            ALBUMS.append({**{
+                "id": full_album["id"],
+                "name": full_album["name"],
+                "release_date": full_album["release_date"],
+                "total_tracks": full_album["total_tracks"],
+                "popularity": full_album["popularity"],
+                "artists": [{"id": a["id"], "name": a["name"]} for a in full_album["artists"]],
+                "tracks": album_tracks
+            }, **metadata})
+
         await asyncio.sleep(random.uniform(0.3, 0.6))
 
-    except Exception as e:
-        print(f"[ERROR] Failed to process artist {artist_id}: {e}")
+    except Exception:
+        pass
 
 
 async def main():
@@ -164,8 +175,6 @@ async def main():
                         artist_ids.append(artist["id"])
                         seen_ids.add(artist["id"])
 
-            print(f"Found {len(artist_ids)} unique popular artists...")
-
             tasks = [process_artist(session, artist_id, headers, metadata)
                      for artist_id in artist_ids]
             await asyncio.gather(*tasks)
@@ -179,10 +188,8 @@ async def main():
         with open("tracks.json", "w") as f:
             json.dump(TRACKS, f, indent=2)
 
-        print("Data with metadata saved to JSON files.")
-
-    except Exception as e:
-        print(f"[FATAL ERROR] {e}")
+    except Exception:
+        pass
 
 if __name__ == "__main__":
     asyncio.run(main())
