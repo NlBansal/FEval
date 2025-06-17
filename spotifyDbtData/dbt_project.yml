@@ -29,7 +29,7 @@ models:
     intermediate:
       +materialized: table
       +schema: intermediate
-      +post-hook: "grant all privileges on {{ this }} to analytics_user"
+      +post-hook: "grant all privileges on {{ this }} to dbt_ro_user"
 
     bridge:
       +materialized: table
